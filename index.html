@@ -85,11 +85,13 @@
   var state={};
   var tempoTypes=[],selectedTempo=new Set(),tempoRefreshTimer,aiSearchLayer,targetPoint=null,radiusCircle=null;
   configs.forEach(function(c){
-    state[c.id]={on:c.defaultOn!==false,count:0,busy:false,error:false,features:[],layer:L.geoJSON(null,{
+    var layer=L.geoJSON(null,{
       pointToLayer:function(f,ll){return L.circleMarker(ll,{radius:6,color:"#fff",weight:2,fillColor:c.color,fillOpacity:.94})},
       style:function(){return{color:c.color,weight:2,fillColor:c.color,fillOpacity:.22}},
       onEachFeature:function(f,l){var n=clean(f.properties[c.title])||c.name;l.bindTooltip(n,{sticky:true});l.on("click",function(){show(c,f)})}
-    })};if(state[c.id].on)state[c.id].layer.addTo(map)}
+    });
+    state[c.id]={on:c.defaultOn!==false,count:0,busy:false,error:false,features:[],layer:layer};
+    if(state[c.id].on)state[c.id].layer.addTo(map)
   });
   function clean(v){return v==null?"":String(v).replace(/<[^>]*>/g," ").replace(/\s+/g," ").trim()}
   function esc(v){return clean(v).replace(/[&<>"']/g,function(x){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[x]})}
