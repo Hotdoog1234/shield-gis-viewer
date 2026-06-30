@@ -28,7 +28,7 @@
     <header><div class="mark">S</div><div><p class="eyebrow">SHIELD</p><h1>GIS Explorer</h1></div></header>
     <div class="search">
       <label class="title" for="q">Find a place</label>
-      <div class="searchrow"><input id="q" placeholder="Address, city, or lat, long"><button id="go" aria-label="Search">⌕</button></div>
+      <div class="searchrow"><input id="q" placeholder="Address, city, AI number, or lat, long"><button id="go" aria-label="Search">⌕</button></div>
       <div class="results" id="results" hidden></div>
     </div>
     <section class="section">
@@ -70,7 +70,7 @@
   var map=L.map("map",{center:[37.75,-85.15],zoom:7,preferCanvas:true});
   bases.streets.addTo(map);var currentBase="streets",requestId=0,searchMarker;
   var state={};
-  var tempoTypes=[],selectedTempo=new Set(),tempoRefreshTimer;
+  var tempoTypes=[],selectedTempo=new Set(),tempoRefreshTimer,aiSearchLayer;
   configs.forEach(function(c){
     state[c.id]={on:true,count:0,busy:false,error:false,layer:L.geoJSON(null,{
       pointToLayer:function(f,ll){return L.circleMarker(ll,{radius:6,color:"#fff",weight:2,fillColor:c.color,fillOpacity:.94})},
@@ -132,7 +132,8 @@
   document.getElementById("refresh").onclick=load;
   document.querySelectorAll("[data-base]").forEach(function(x){x.onclick=function(){map.removeLayer(bases[currentBase]);currentBase=x.dataset.base;bases[currentBase].addTo(map);bases[currentBase].bringToBack();document.querySelectorAll("[data-base]").forEach(function(y){y.classList.toggle("on",y===x)})}});
   var timer;map.on("moveend",function(){clearTimeout(timer);timer=setTimeout(load,250);summary()});
-  async function search(){var q=document.getElementById("q").value.trim();if(!q)return;var m=q.match(/^\s*(-?\d+(?:\.\d+)?)\s*[, ]\s*(-?\d+(?:\.\d+)?)\s*$/);if(m){pick(Number(m[1]),Number(m[2]),q);return}try{var r=await fetch("https://nominatim.openstreetmap.org/search?format=jsonv2&limit=5&countrycodes=us&q="+encodeURIComponent(q)),data=await r.json(),box=document.getElementById("results");box.innerHTML=data.length?data.map(function(v,i){return '<button class="result" data-result="'+i+'"><b>'+esc(v.display_name.split(",")[0])+'</b><small>'+esc(v.display_name)+"</small></button>"}).join(""):'<button class="result"><b>No places found</b><small>Try a more specific search.</small></button>';box.hidden=false;box.querySelectorAll("[data-result]").forEach(function(x){x.onclick=function(){var v=data[Number(x.dataset.result)];pick(Number(v.lat),Number(v.lon),v.display_name)}})}catch(e){toast("Search is temporarily unavailable. Try latitude, longitude.")}}
+  async function searchByAiNumber(ai,explicit){try{var n=Number(ai);if(!Number.isFinite(n))return false;var p=new URLSearchParams({where:"MASTER_AI_ID="+n,outFields:"*",returnGeometry:"true",outSR:"4326",f:"geojson"});var r=await fetch(configs[0].url+"/query?"+p.toString()),data=await r.json(),features=data.features||[];if(!features.length){if(explicit)toast("No TEMPO Agency Interest found for AI "+ai);return false}if(aiSearchLayer)map.removeLayer(aiSearchLayer);aiSearchLayer=L.geoJSON(data,{pointToLayer:function(f,ll){return L.circleMarker(ll,{radius:11,color:"#0b5fff",weight:3,fillColor:"#62d2ff",fillOpacity:.9})},style:function(){return{color:"#0b5fff",weight:4,fillColor:"#62d2ff",fillOpacity:.35}},onEachFeature:function(f,l){l.bindTooltip("AI "+ai,{sticky:true});l.on("click",function(){show(configs[0],f)})}}).addTo(map);show(configs[0],features[0]);try{map.fitBounds(aiSearchLayer.getBounds(),{maxZoom:15,padding:[30,30]})}catch(e){}toast("Found AI "+ai);return true}catch(e){toast("AI search is temporarily unavailable.");return true}}
+  async function search(){var q=document.getElementById("q").value.trim();if(!q)return;var explicitAi=/^ai(?:\s*(?:id|number|#))?\s*[:#-]?\s*\d+$/i.test(q),bareAi=/^\d{3,}$/.test(q);if(explicitAi||bareAi){var aiFound=await searchByAiNumber((q.match(/\d+/)||[""])[0],explicitAi);if(aiFound||explicitAi)return}var m=q.match(/^\s*(-?\d+(?:\.\d+)?)\s*[, ]\s*(-?\d+(?:\.\d+)?)\s*$/);if(m){pick(Number(m[1]),Number(m[2]),q);return}try{var r=await fetch("https://nominatim.openstreetmap.org/search?format=jsonv2&limit=5&countrycodes=us&q="+encodeURIComponent(q)),data=await r.json(),box=document.getElementById("results");box.innerHTML=data.length?data.map(function(v,i){return '<button class="result" data-result="'+i+'"><b>'+esc(v.display_name.split(",")[0])+'</b><small>'+esc(v.display_name)+"</small></button>"}).join(""):'<button class="result"><b>No places found</b><small>Try a more specific search.</small></button>';box.hidden=false;box.querySelectorAll("[data-result]").forEach(function(x){x.onclick=function(){var v=data[Number(x.dataset.result)];pick(Number(v.lat),Number(v.lon),v.display_name)}})}catch(e){toast("Search is temporarily unavailable. Try latitude, longitude.")}}
   function pick(lat,lng,label){if(searchMarker)map.removeLayer(searchMarker);searchMarker=L.marker([lat,lng]).addTo(map).bindPopup("<b>"+esc(label)+"</b>").openPopup();map.setView([lat,lng],14);document.getElementById("results").hidden=true}
   document.getElementById("go").onclick=search;document.getElementById("q").onkeydown=function(e){if(e.key==="Enter")search()};
   render();summary();loadTempoTypes();load();
