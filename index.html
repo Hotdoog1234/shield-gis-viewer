@@ -91,7 +91,9 @@
 
   ];
   function arcgisImageBasemap(url,options){
-    return L.tileLayer("",Object.assign({tileSize:256,maxZoom:22,attribution:"WVDEP TAGIS imagery",bounds:[[37.7,-82.8],[40.8,-77.4]],getTileUrl:function(coords){var size=this.getTileSize(),nwPoint=coords.scaleBy(size),sePoint=nwPoint.add(size),nw=this._map.unproject(nwPoint,coords.z),se=this._map.unproject(sePoint,coords.z),nwM=L.CRS.EPSG3857.project(nw),seM=L.CRS.EPSG3857.project(se),bbox=[nwM.x,seM.y,seM.x,nwM.y].join(",");return url+"/exportImage?bbox="+bbox+"&bboxSR=102100&imageSR=102100&size="+size.x+","+size.y+"&format=jpgpng&transparent=false&f=image"}},options||{}))
+    var layer=L.tileLayer("",Object.assign({tileSize:256,maxZoom:22,attribution:"WVDEP TAGIS imagery",bounds:[[37.7,-82.8],[40.8,-77.4]]},options||{}));
+    layer.getTileUrl=function(coords){var size=this.getTileSize(),nwPoint=coords.scaleBy(size),sePoint=nwPoint.add(size),nw=this._map.unproject(nwPoint,coords.z),se=this._map.unproject(sePoint,coords.z),nwM=L.CRS.EPSG3857.project(nw),seM=L.CRS.EPSG3857.project(se),bbox=[nwM.x,seM.y,seM.x,nwM.y].join(",");return url+"/exportImage?bbox="+bbox+"&bboxSR=102100&imageSR=102100&size="+size.x+","+size.y+"&format=jpgpng&transparent=false&f=image"};
+    return layer
   }
   var bases={
     streets:L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxNativeZoom:19,maxZoom:22,attribution:"&copy; OpenStreetMap contributors"}),
