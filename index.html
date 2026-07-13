@@ -221,10 +221,14 @@
     if(n.indexOf("epa ")>=0||n.indexOf("federal")>=0||n.indexOf("frs")>=0)return"EPA";
     return"Other"
   }
+  function groupRank(g){
+    var priority={"KY":100,"KY · Utilities":101,"KY · WRIS Drinking Water":102,"KY · WRIS Wastewater":103,"IL":200,"IN":300,"OH":400,"TN":500,"VA":600,"WV":700,"EPA":800,"National · Utilities":900,"Other":1000,"Shield Projects":9999};
+    return priority[g]||5000
+  }
   function render(){
     var groups={};
     configs.forEach(function(c){var g=layerGroup(c);(groups[g]||(groups[g]=[])).push(c);if(layerGroupOpen[g]==null)layerGroupOpen[g]=g==="KY"});
-    var order=Object.keys(groups).sort(function(a,b){if(a==="Shield Projects")return 1;if(b==="Shield Projects")return-1;return a.localeCompare(b)});
+    var order=Object.keys(groups).sort(function(a,b){var ra=groupRank(a),rb=groupRank(b);return ra===rb?a.localeCompare(b):ra-rb});
     document.getElementById("layers").innerHTML=order.map(function(g){
       var items=groups[g].sort(function(a,b){return a.name.localeCompare(b.name)});
       var active=items.filter(function(c){return state[c.id]&&state[c.id].on}).length;
