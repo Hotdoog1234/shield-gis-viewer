@@ -174,7 +174,7 @@
   }
   function layerGroup(c){
     var n=(c.name+" "+(c.sub||"")+" "+(c.label||"")).toLowerCase();
-    if(c.review)return"Review";
+    if(c.review)return"Shield Projects";
     if(n.indexOf("illinois")>=0||/^il\b/.test(n))return"IL";
     if(n.indexOf("indiana")>=0||/^in\b/.test(n))return"IN";
     if(n.indexOf("kentucky")>=0||/^ky\b/.test(n)||n.indexOf("tempo")>=0||n.indexOf("managed superfund")>=0)return"KY";
@@ -188,7 +188,7 @@
   function render(){
     var groups={};
     configs.forEach(function(c){var g=layerGroup(c);(groups[g]||(groups[g]=[])).push(c);if(layerGroupOpen[g]==null)layerGroupOpen[g]=g==="KY"});
-    var order=Object.keys(groups).sort(function(a,b){if(a==="Review")return 1;if(b==="Review")return-1;return a.localeCompare(b)});
+    var order=Object.keys(groups).sort(function(a,b){if(a==="Shield Projects")return 1;if(b==="Shield Projects")return-1;return a.localeCompare(b)});
     document.getElementById("layers").innerHTML=order.map(function(g){
       var items=groups[g].sort(function(a,b){return a.name.localeCompare(b.name)});
       var active=items.filter(function(c){return state[c.id]&&state[c.id].on}).length;
