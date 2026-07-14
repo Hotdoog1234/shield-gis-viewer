@@ -1,0 +1,88 @@
+{
+  "total_rows": 90,
+  "mapped": 85,
+  "missing": 5,
+  "routes": [
+    {
+      "route": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
+      "count": 10,
+      "first": "McArthur",
+      "last": "Rosemount Rd"
+    },
+    {
+      "route": "Route 2: KY/OH \u00b7 Waverly to Ashland",
+      "count": 10,
+      "first": "Waverly",
+      "last": "Westwood"
+    },
+    {
+      "route": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
+      "count": 10,
+      "first": "Whittington's (Mike Eblin)",
+      "last": "Catlettsburg"
+    },
+    {
+      "route": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
+      "count": 10,
+      "first": "Vanceburg",
+      "last": "Boyd Co School Bus Garage"
+    },
+    {
+      "route": "Route 5: KY/OH \u00b7 Ironton to Ashland",
+      "count": 10,
+      "first": "Stroble",
+      "last": "Greenhills"
+    },
+    {
+      "route": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
+      "count": 10,
+      "first": "Diederich",
+      "last": "West Liberty"
+    },
+    {
+      "route": "Route 7: KY \u00b7 Flemingsburg to Lexington",
+      "count": 10,
+      "first": "Flemingsburg",
+      "last": "Winchester Road"
+    },
+    {
+      "route": "Route 8: KY \u00b7 Georgetown to Lexington",
+      "count": 10,
+      "first": "Georgetown",
+      "last": "Lexington"
+    },
+    {
+      "route": "Route 9: KY \u00b7 Lexington to Berea",
+      "count": 5,
+      "first": "Marathon Food Mart CC3",
+      "last": "Berea"
+    }
+  ],
+  "missing_records": [
+    {
+      "store": "15",
+      "name": "Lavalette",
+      "address": "4790 St Rt 152, Lavalette, WV, 25535"
+    },
+    {
+      "store": "25",
+      "name": "Proctorville",
+      "address": "7575 St Rt 7, Proctorville, OH, 45669"
+    },
+    {
+      "store": "26",
+      "name": "Chesapeake",
+      "address": "2927 Co Rd 44, So. Point, OH, 45680"
+    },
+    {
+      "store": "30",
+      "name": "Rio Grande",
+      "address": "11381 St Rt 588, Rio Grande, OH, 45674"
+    },
+    {
+      "store": "JC80",
+      "name": "Paddle Creek",
+      "address": "569 RTE 52, Fort Gay, WV, 25514"
+    }
+  ]
+}
