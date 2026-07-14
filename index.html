@@ -46,7 +46,7 @@
       </div>
     </section>
     <div class="bottom">
-      <section class="section"><p class="eyebrow">BASEMAP</p><div class="base"><button class="on" data-base="streets">Streets</button><button data-base="aerial">Aerial</button><button data-base="topo">Topo</button><button data-base="wv">WV</button><button data-base="usgs">USGS</button><button data-base="naip">NAIP</button><button data-base="naipplus">NAIP+</button></div><div class="wv-tools"><label for="wvImageryYear">WV imagery year</label><div class="wv-row"><select id="wvImageryYear"><option value="2024" selected>2024 aerials</option><option value="2022">2022 aerials</option><option value="2020">2020 aerials</option><option value="2018">2018 aerials</option><option value="2016">2016 aerials</option><option value="2014">2014 aerials</option></select><span class="wv-value" id="wvActiveYear">2024</span></div><label for="wvOpacity">WV imagery transparency</label><div class="wv-row"><input id="wvOpacity" type="range" min="25" max="100" value="100"><span class="wv-value" id="wvOpacityValue">100%</span></div></div></section>
+      <section class="section"><p class="eyebrow">BASEMAP</p><div class="base"><button class="on" data-base="streets">Streets</button><button data-base="aerial">Aerial</button><button data-base="topo">Topo</button><button data-base="wv">WV</button><button data-base="usgs">USGS</button><button data-base="naip">NAIP</button><button data-base="naipplus">NAIP+</button></div><div class="wv-tools"><label for="wvImageryYear">WV imagery year</label><div class="wv-row"><select id="wvImageryYear"><option value="2024" selected>2024 aerials</option><option value="2022">2022 aerials</option><option value="2020">2020 aerials</option><option value="2018">2018 aerials</option><option value="2016">2016 aerials</option><option value="2014">2014 aerials</option></select><span class="wv-value" id="wvActiveYear">2024</span></div><label for="wvOpacity">WV imagery transparency</label><div class="wv-row"><input id="wvOpacity" type="range" min="25" max="100" value="100"><span class="wv-value" id="wvOpacityValue">100%</span></div></div><div class="wv-tools"><label for="terrainOverlay">LiDAR / terrain overlay</label><div class="wv-row"><select id="terrainOverlay"><option value="" selected>Off</option><option value="Hillshade Gray">Hillshade</option><option value="Hillshade Elevation Tinted">Tinted hillshade</option><option value="Slope Map">Slope</option><option value="Preset 2ft Contour Interval">2 ft contours</option><option value="Preset 5ft Contour Interval">5 ft contours</option><option value="Preset 10ft Contour Interval">10 ft contours</option></select><span class="wv-value" id="terrainActive">Off</span></div><label for="terrainOpacity">Overlay transparency</label><div class="wv-row"><input id="terrainOpacity" type="range" min="10" max="100" value="65"><span class="wv-value" id="terrainOpacityValue">65%</span></div></div></section>
       <div class="footer"><span id="services"><i class="dot"></i>Services ready</span><span>Live public data</span></div>
     </div>
   </aside>
@@ -158,8 +158,10 @@
     {id:"reviewLowconf",review:true,name:"Low-confidence review",sub:"Batch geocode QA · read-only lens",color:"#b91c1c",shape:"point",min:0,defaultOn:true}
   ];
   function arcgisImageBasemap(url,options){
-    var layer=L.tileLayer("",Object.assign({tileSize:256,maxZoom:22,attribution:"ArcGIS imagery"},options||{}));
-    layer.getTileUrl=function(coords){var size=this.getTileSize(),nwPoint=coords.scaleBy(size),sePoint=nwPoint.add(size),nw=this._map.unproject(nwPoint,coords.z),se=this._map.unproject(sePoint,coords.z),nwM=L.CRS.EPSG3857.project(nw),seM=L.CRS.EPSG3857.project(se),bbox=[nwM.x,seM.y,seM.x,nwM.y].join(",");return url+"/exportImage?bbox="+bbox+"&bboxSR=102100&imageSR=102100&size="+size.x+","+size.y+"&format=jpgpng&transparent=false&f=image"};
+    options=options||{};var imageFormat=options.imageFormat||"jpgpng",transparent=options.transparent===true,rasterFunction=options.rasterFunction,layerOptions=Object.assign({tileSize:256,maxZoom:22,attribution:"ArcGIS imagery"},options||{});
+    delete layerOptions.imageFormat;delete layerOptions.transparent;delete layerOptions.rasterFunction;
+    var layer=L.tileLayer("",layerOptions);
+    layer.getTileUrl=function(coords){var size=this.getTileSize(),nwPoint=coords.scaleBy(size),sePoint=nwPoint.add(size),nw=this._map.unproject(nwPoint,coords.z),se=this._map.unproject(sePoint,coords.z),nwM=L.CRS.EPSG3857.project(nw),seM=L.CRS.EPSG3857.project(se),params=new URLSearchParams({bbox:[nwM.x,seM.y,seM.x,nwM.y].join(","),bboxSR:"102100",imageSR:"102100",size:size.x+","+size.y,format:imageFormat,transparent:String(transparent),f:"image"});if(rasterFunction)params.set("renderingRule",JSON.stringify({rasterFunction:rasterFunction}));return url+"/exportImage?"+params.toString()};
     return layer
   }
   var bases={
@@ -177,7 +179,7 @@
     wv2014:arcgisImageBasemap("https://tagis.dep.wv.gov/image/rest/services/webMercator/aerial_photography_2014/ImageServer",{maxNativeZoom:22,maxZoom:22,attribution:"WVDEP TAGIS 2014 aerial imagery"})
   };
   var map=L.map("map",{center:[37.75,-85.15],zoom:7,maxZoom:22,preferCanvas:true});
-  bases.streets.addTo(map);var currentBase="streets",requestId=0,searchMarker,selectedMarker=null,selectedLeaderLine=null,selectedPopup=null;
+  bases.streets.addTo(map);var currentBase="streets",requestId=0,searchMarker,selectedMarker=null,selectedLeaderLine=null,selectedPopup=null,terrainLayer=null;
   var state={},layerGroupOpen={};
   var reviewCardDismissed=false,reviewPinCount=0;
   var tempoTypes=[],selectedTempo=new Set(),tempoRefreshTimer,aiSearchLayer,targetPoint=null,radiusCircle=null;
@@ -325,14 +327,19 @@
   document.getElementById("layerSelectAll").onclick=function(){setAllLayers(true)};
   document.getElementById("layerClearAll").onclick=function(){setAllLayers(false)};
   document.getElementById("refresh").onclick=load;
-  var wvYearSelect=document.getElementById("wvImageryYear"),wvOpacity=document.getElementById("wvOpacity"),wvOpacityValue=document.getElementById("wvOpacityValue"),wvActiveYear=document.getElementById("wvActiveYear");
+  var wvYearSelect=document.getElementById("wvImageryYear"),wvOpacity=document.getElementById("wvOpacity"),wvOpacityValue=document.getElementById("wvOpacityValue"),wvActiveYear=document.getElementById("wvActiveYear"),terrainOverlay=document.getElementById("terrainOverlay"),terrainOpacity=document.getElementById("terrainOpacity"),terrainOpacityValue=document.getElementById("terrainOpacityValue"),terrainActive=document.getElementById("terrainActive");
   function isWvBase(k){return /^wv\d{4}$/.test(k)}
   function updateBaseButtons(){document.querySelectorAll("[data-base]").forEach(function(y){y.classList.toggle("on",y.dataset.base==="wv"?isWvBase(currentBase):y.dataset.base===currentBase)})}
   function applyWvOpacity(){var pct=Number(wvOpacity.value)||100,wvLayer=bases[currentBase];wvOpacityValue.textContent=pct+"%";if(wvLayer&&isWvBase(currentBase)&&wvLayer.setOpacity)wvLayer.setOpacity(pct/100)}
   function switchBase(key){if(!bases[key])return;map.removeLayer(bases[currentBase]);currentBase=key;bases[currentBase].addTo(map);bases[currentBase].bringToBack();if(isWvBase(currentBase)){wvActiveYear.textContent=currentBase.replace("wv","");wvYearSelect.value=wvActiveYear.textContent;applyWvOpacity()}updateBaseButtons()}
+  function terrainLabel(v){return v==="Hillshade Gray"?"Hillshade":v==="Hillshade Elevation Tinted"?"Tinted":v==="Slope Map"?"Slope":v==="Preset 2ft Contour Interval"?"2 ft":v==="Preset 5ft Contour Interval"?"5 ft":v==="Preset 10ft Contour Interval"?"10 ft":"Off"}
+  function applyTerrainOverlay(){var rule=terrainOverlay.value,pct=Number(terrainOpacity.value)||65;terrainOpacityValue.textContent=pct+"%";terrainActive.textContent=terrainLabel(rule);if(terrainLayer){map.removeLayer(terrainLayer);terrainLayer=null}if(!rule)return;terrainLayer=arcgisImageBasemap("https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",{maxNativeZoom:22,maxZoom:22,attribution:"USGS 3DEP elevation",imageFormat:"png32",transparent:true,rasterFunction:rule,opacity:pct/100});terrainLayer.addTo(map)}
+  function updateTerrainOpacity(){var pct=Number(terrainOpacity.value)||65;terrainOpacityValue.textContent=pct+"%";if(terrainLayer&&terrainLayer.setOpacity)terrainLayer.setOpacity(pct/100)}
   document.querySelectorAll("[data-base]").forEach(function(x){x.onclick=function(){switchBase(x.dataset.base==="wv"?"wv"+wvYearSelect.value:x.dataset.base)}});
   wvYearSelect.onchange=function(){wvActiveYear.textContent=this.value;if(isWvBase(currentBase))switchBase("wv"+this.value)};
   wvOpacity.oninput=applyWvOpacity;
+  terrainOverlay.onchange=applyTerrainOverlay;
+  terrainOpacity.oninput=updateTerrainOpacity;
   var timer;map.on("moveend",function(){clearTimeout(timer);timer=setTimeout(load,250);summary()});
   function uniq(a){return a.filter(function(v,i){return v&&a.indexOf(v)===i})}
   function firstFields(c,patterns){var fs=c.fields||[],out=[];patterns.forEach(function(re){fs.forEach(function(f){if(re.test(f)&&out.indexOf(f)<0)out.push(f)})});return out.slice(0,4)}
