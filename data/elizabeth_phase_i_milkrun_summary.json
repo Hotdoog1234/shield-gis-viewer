@@ -3,95 +3,118 @@
   "mapped": 85,
   "missing": 5,
   "start_end": "Lexington, KY",
+  "routing_method": "Road-distance optimized using OSRM road network; Google Maps may adjust final navigation for live traffic.",
   "max_site_stops_per_google_route": 8,
   "routes": [
     {
-      "route": "Lexington Round Trip 1: KY/OH \u00b7 McArthur to Russell Cave",
-      "count": 8,
-      "approx_loop_miles": 289.6,
-      "first": "McArthur",
-      "last": "Russell Cave",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.248450625239%2C-82.488051895609%7C39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C39.13034733819%2C-82.980519890875%7C39.052316984237%2C-82.993719639181%7C38.095554515104%2C-84.486268477911%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332"
-    },
-    {
-      "route": "Lexington Round Trip 2: KY/OH \u00b7 Oak Hill to Flemingsburg",
-      "count": 8,
-      "approx_loop_miles": 245.6,
-      "first": "Oak Hill",
-      "last": "Flemingsburg",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.90109987208%2C-82.569178716707%7C38.776967637737%2C-82.944043199716%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301%7C38.5915%2C-83.326361%7C38.421082757408%2C-83.732379403989%7C38.420753431938%2C-83.76038417191"
-    },
-    {
-      "route": "Lexington Round Trip 3: KY/OH \u00b7 Whittington's (Mike Eblin) to Vanceburg",
-      "count": 8,
-      "approx_loop_miles": 296.1,
-      "first": "Whittington's (Mike Eblin)",
-      "last": "Vanceburg",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.832941465338%2C-82.155423543231%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.6469488%2C-82.8605661%7C38.560965%2C-82.8079305%7C38.56949255328%2C-82.832644518509%7C38.419066%2C-83.145297%7C38.542704717141%2C-83.345220628916"
-    },
-    {
-      "route": "Lexington Round Trip 4: KY/OH \u00b7 Diederich to Holliday Quik Stop - KASH",
-      "count": 8,
-      "approx_loop_miles": 225.4,
-      "first": "Diederich",
-      "last": "Holliday Quik Stop - KASH",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.5043991%2C-82.69182%7C38.48415356492%2C-82.671589257474%7C38.501694791007%2C-82.646289554426%7C38.512994300943%2C-82.658403902514%7C38.52508750124%2C-82.664892945284%7C38.537376820201%2C-82.679438390331%7C38.552654005403%2C-82.610101520264%7C38.50266167383%2C-82.60261672826"
-    },
-    {
-      "route": "Lexington Round Trip 5: KY \u00b7 Clarks Caf\u00e9 to Greenup Ave",
-      "count": 8,
-      "approx_loop_miles": 214.7,
-      "first": "Clarks Caf\u00e9",
-      "last": "Greenup Ave",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.455833%2C-82.695278%7C38.4572429%2C-82.676784%7C38.4536426%2C-82.6730504%7C38.457723898283%2C-82.666764931299%7C38.477310566334%2C-82.667076176391%7C38.460700725412%2C-82.640525070666%7C38.466307526567%2C-82.627889024055%7C38.469961530846%2C-82.621550048531"
-    },
-    {
-      "route": "Lexington Round Trip 6: KY/OH/WV \u00b7 Fraziers Bottom to Olive Hill Marathon",
-      "count": 8,
-      "approx_loop_miles": 285.0,
-      "first": "Fraziers Bottom",
-      "last": "Olive Hill Marathon",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.451529832917%2C-82.591327523655%7C38.439280286381%2C-82.609004376435%7C38.439909197444%2C-82.705132481059%7C38.3419039%2C-82.9437233%7C38.296635214434%2C-83.180232185203"
-    },
-    {
-      "route": "Lexington Round Trip 7: KY/OH/WV \u00b7 31st Convenience Plus to Grayson",
-      "count": 8,
-      "approx_loop_miles": 236.1,
-      "first": "31st Convenience Plus",
-      "last": "Grayson",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.424869447626%2C-82.392956232883%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318%7C38.379018895712%2C-82.702951075321%7C38.370254641789%2C-82.765411068432%7C38.36138224%2C-82.77280927%7C38.326594329486%2C-82.947509174543"
-    },
-    {
-      "route": "Lexington Round Trip 8: KY/WV \u00b7 West Hamlin to MOREHEAD",
-      "count": 8,
-      "approx_loop_miles": 297.4,
-      "first": "West Hamlin",
-      "last": "MOREHEAD",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.271012196072%2C-82.200838089499%7C38.113858310239%2C-82.604726734455%7C38.230093064616%2C-82.439809594392%7C38.406100883449%2C-82.428171444247%7C38.35686663%2C-82.69673914%7C38.286390139164%2C-82.919059418731%7C38.088564%2C-83.1256626%7C38.182622042618%2C-83.431688139099"
-    },
-    {
-      "route": "Lexington Round Trip 9: KY \u00b7 T's Quick Stop to Winchester Road",
-      "count": 8,
-      "approx_loop_miles": 208.5,
-      "first": "T's Quick Stop",
+      "route": "Lexington Road Run 1: KY \u00b7 Clays Mill Rd to Winchester Road",
+      "route_number": 1,
+      "count": 7,
+      "drive_miles": 109.5,
+      "drive_minutes": 150.0,
+      "first": "Clays Mill Rd",
       "last": "Winchester Road",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.068642353245%2C-83.162032442735%7C37.921975577639%2C-83.259926259428%7C37.568914134966%2C-84.318334423585%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C37.948611%2C-84.541944%7C37.996863197986%2C-84.548270113657%7C38.04117400934%2C-84.471186301457"
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=37.996863197986,-84.548270113657|37.948611000000,-84.541944000000|37.568914134966,-84.318334423585|37.997919980046,-84.174585333820|37.997286549092,-84.174907557413|38.069720319089,-84.474923978332|38.041174009340,-84.471186301457"
     },
     {
-      "route": "Lexington Round Trip 10: KY \u00b7 Frankfort to Marathon Food Mart CC3",
+      "route": "Lexington Road Run 2: KY \u00b7 Versailles to Speaks Marathon SPE001",
+      "route_number": 2,
       "count": 8,
-      "approx_loop_miles": 47.2,
-      "first": "Frankfort",
-      "last": "Marathon Food Mart CC3",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.187688429852%2C-84.810980108947%7C38.162024093287%2C-84.676410982831%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289%7C38.057889739685%2C-84.532293904374%7C38.049468115848%2C-84.527226966676%7C38.050013921372%2C-84.517664633703"
+      "drive_miles": 69.6,
+      "drive_minutes": 99.0,
+      "first": "Versailles",
+      "last": "Speaks Marathon SPE001",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.044728168080,-84.663965360438|38.187688429852,-84.810980108947|38.162024093287,-84.676410982831|38.208788963860,-84.594553294954|38.214590499843,-84.540149815420|38.231091196337,-84.535236638363|38.275301338024,-84.554902721280|38.095554515104,-84.486268477911"
     },
     {
-      "route": "Lexington Round Trip 11: KY \u00b7 Canewood to Palumbo Lumber Co.",
-      "count": 5,
-      "approx_loop_miles": 34.4,
-      "first": "Canewood",
+      "route": "Lexington Road Run 3: KY \u00b7 Marathon Food Mart CC3 to Palumbo Lumber Co.",
+      "route_number": 3,
+      "count": 6,
+      "drive_miles": 12.6,
+      "drive_minutes": 27.0,
+      "first": "Marathon Food Mart CC3",
       "last": "Palumbo Lumber Co.",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.20878896386%2C-84.594553294954%7C38.275301338024%2C-84.55490272128%7C38.231091196337%2C-84.535236638363%7C38.214590499843%2C-84.54014981542%7C38.061167811605%2C-84.51673272832"
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.050013921372,-84.517664633703|38.049468115848,-84.527226966676|38.057889739685,-84.532293904374|38.088131399617,-84.548607642383|38.089253912797,-84.536736457289|38.061167811605,-84.516732728320"
+    },
+    {
+      "route": "Lexington Road Run 4: OH/WV \u00b7 Waverly to West Hamlin",
+      "route_number": 4,
+      "count": 8,
+      "drive_miles": 441.3,
+      "drive_minutes": 577.0,
+      "first": "Waverly",
+      "last": "West Hamlin",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.130347338190,-82.980519890875|39.248450625239,-82.488051895609|39.244278721230,-82.479262629688|39.031609936964,-82.637153346320|38.901099872080,-82.569178716707|38.832941465338,-82.155423543231|38.556787021856,-81.971688650872|38.271012196072,-82.200838089499"
+    },
+    {
+      "route": "Lexington Road Run 5: KY/OH \u00b7 Portsmouth to Greenup",
+      "route_number": 5,
+      "count": 8,
+      "drive_miles": 271.8,
+      "drive_minutes": 353.0,
+      "first": "Portsmouth",
+      "last": "Greenup",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.740186694551,-82.964136887993|38.721005400000,-82.961841100000|38.776967637737,-82.944043199716|38.728867208675,-82.859666512065|38.728742215953,-82.844277520279|38.646948800000,-82.860566100000|38.569492553280,-82.832644518509|38.560965000000,-82.807930500000"
+    },
+    {
+      "route": "Lexington Road Run 6: KY \u00b7 J & R Diesel to Burnaugh",
+      "route_number": 6,
+      "count": 8,
+      "drive_miles": 244.3,
+      "drive_minutes": 288.0,
+      "first": "J & R Diesel",
+      "last": "Burnaugh",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.457242900000,-82.676784000000|38.484153564920,-82.671589257474|38.477310566334,-82.667076176391|38.460700725412,-82.640525070666|38.466307526567,-82.627889024055|38.469961530846,-82.621550048531|38.439280286381,-82.609004376435|38.399014900000,-82.600931800000"
+    },
+    {
+      "route": "Lexington Road Run 7: KY/OH \u00b7 South Point to Diederich",
+      "route_number": 7,
+      "count": 8,
+      "drive_miles": 267.4,
+      "drive_minutes": 337.0,
+      "first": "South Point",
+      "last": "Diederich",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.451529832917,-82.591327523655|38.502661673830,-82.602616728260|38.501694791007,-82.646289554426|38.512994300943,-82.658403902514|38.525087501240,-82.664892945284|38.552654005403,-82.610101520264|38.537376820201,-82.679438390331|38.504399100000,-82.691820000000"
+    },
+    {
+      "route": "Lexington Road Run 8: KY \u00b7 Rush to Route 3",
+      "route_number": 8,
+      "count": 8,
+      "drive_miles": 240.9,
+      "drive_minutes": 290.0,
+      "first": "Rush",
+      "last": "Route 3",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.361382240000,-82.772809270000|38.370254641789,-82.765411068432|38.457723898283,-82.666764931299|38.453642600000,-82.673050400000|38.455833000000,-82.695278000000|38.439909197444,-82.705132481059|38.379018895712,-82.702951075321|38.356866630000,-82.696739140000"
+    },
+    {
+      "route": "Lexington Road Run 9: KY/OH \u00b7 MOREHEAD to North Broadway",
+      "route_number": 9,
+      "count": 8,
+      "drive_miles": 286.1,
+      "drive_minutes": 401.0,
+      "first": "MOREHEAD",
+      "last": "North Broadway",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.182622042618,-83.431688139099|38.542704717141,-83.345220628916|38.591500000000,-83.326361000000|38.759178801902,-82.990515740301|39.052316984237,-82.993719639181|38.421082757408,-83.732379403989|38.420753431938,-83.760384171910|38.075151859626,-84.457642913927"
+    },
+    {
+      "route": "Lexington Road Run 10: KY/OH/WV \u00b7 Louisa to Piedmont Pantry",
+      "route_number": 10,
+      "count": 8,
+      "drive_miles": 331.0,
+      "drive_minutes": 418.0,
+      "first": "Louisa",
+      "last": "Piedmont Pantry",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.113858310239,-82.604726734455|38.230093064616,-82.439809594392|38.406100883449,-82.428171444247|38.424869447626,-82.392956232883|38.455452315980,-82.306736812846|38.457595760822,-82.338675656164|38.418298874567,-82.502927853442|38.398013306772,-82.516453297453"
+    },
+    {
+      "route": "Lexington Road Run 11: KY \u00b7 West Liberty to Olive Hill Marathon",
+      "route_number": 11,
+      "count": 8,
+      "drive_miles": 245.3,
+      "drive_minutes": 320.0,
+      "first": "West Liberty",
+      "last": "Olive Hill Marathon",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=37.921975577639,-83.259926259428|38.068642353245,-83.162032442735|38.088564000000,-83.125662600000|38.286390139164,-82.919059418731|38.326594329486,-82.947509174543|38.341903900000,-82.943723300000|38.419066000000,-83.145297000000|38.296635214434,-83.180232185203"
     }
   ],
   "missing_records": [
