@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "name": "Environmental Phase I Listing - Elizabeth Milk Run Stops",
-  "generated": "2026-07-14",
+  "name": "Environmental Phase I Listing - Lexington Round Trip Stops",
+  "generated": "2026-07-15",
   "features": [
     {
       "type": "Feature",
@@ -25,14 +25,16 @@
         "Notes": "",
         "Latitude": "38.48415356492",
         "Longitude": "-82.671589257474",
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
-        "Route_Order": "10",
-        "_color": "#2563eb",
+        "Route_Group": "Lexington Round Trip 4: KY/OH \u00b7 Diederich to Holliday Quik Stop - KASH",
+        "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#f97316",
         "Geocode_Match": "1805 MAIN ST W, ASHLAND, KY, 41102",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1805+Main+Street%2C+Ashland%2C+KY%2C+41102",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.48415356492%2C-82.671589257474"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.48415356492%2C-82.671589257474",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.5043991%2C-82.69182%7C38.48415356492%2C-82.671589257474%7C38.501694791007%2C-82.646289554426%7C38.512994300943%2C-82.658403902514%7C38.52508750124%2C-82.664892945284%7C38.537376820201%2C-82.679438390331%7C38.552654005403%2C-82.610101520264%7C38.50266167383%2C-82.60261672826"
       }
     },
     {
@@ -57,14 +59,16 @@
         "Notes": "",
         "Latitude": "38.439280286381",
         "Longitude": "-82.609004376435",
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
-        "Route_Order": "10",
-        "_color": "#16a34a",
+        "Route_Group": "Lexington Round Trip 6: KY/OH/WV \u00b7 Fraziers Bottom to Olive Hill Marathon",
+        "Route_Order": "5",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0891b2",
         "Geocode_Match": "900 CENTER ST, CATLETTSBURG, KY, 41129",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=900+Center+Street%2C+Catlettsburg%2C+KY%2C+41129",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.439280286381%2C-82.609004376435"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.439280286381%2C-82.609004376435",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.451529832917%2C-82.591327523655%7C38.439280286381%2C-82.609004376435%7C38.439909197444%2C-82.705132481059%7C38.3419039%2C-82.9437233%7C38.296635214434%2C-83.180232185203"
       }
     },
     {
@@ -89,14 +93,16 @@
         "Notes": "",
         "Latitude": "38.56949255328",
         "Longitude": "-82.832644518509",
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
-        "Route_Order": "4",
-        "_color": "#2563eb",
+        "Route_Group": "Lexington Round Trip 3: KY/OH \u00b7 Whittington's (Mike Eblin) to Vanceburg",
+        "Route_Order": "6",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#16a34a",
         "Geocode_Match": "1024 SEATON AVE, GREENUP, KY, 41144",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1024+Seaton+Avenue%2C+Greenup%2C+KY%2C+41144",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.56949255328%2C-82.832644518509"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.56949255328%2C-82.832644518509",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.832941465338%2C-82.155423543231%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.6469488%2C-82.8605661%7C38.560965%2C-82.8079305%7C38.56949255328%2C-82.832644518509%7C38.419066%2C-83.145297%7C38.542704717141%2C-83.345220628916"
       }
     },
     {
@@ -121,14 +127,16 @@
         "Notes": "",
         "Latitude": "38.560965",
         "Longitude": "-82.8079305",
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
+        "Route_Group": "Lexington Round Trip 3: KY/OH \u00b7 Whittington's (Mike Eblin) to Vanceburg",
         "Route_Order": "5",
-        "_color": "#2563eb",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#16a34a",
         "Geocode_Match": "Ashland Road, Greenup County, Kentucky, 41144, United States",
         "Geocode_Source": "OpenStreetMap Nominatim fallback",
         "Geocode_Quality": "residential",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1735+Ashland+Road%2C+Greenup%2C+KY%2C+41144",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.560965%2C-82.8079305"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.560965%2C-82.8079305",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.832941465338%2C-82.155423543231%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.6469488%2C-82.8605661%7C38.560965%2C-82.8079305%7C38.56949255328%2C-82.832644518509%7C38.419066%2C-83.145297%7C38.542704717141%2C-83.345220628916"
       }
     },
     {
@@ -153,14 +161,16 @@
         "Notes": "",
         "Latitude": "38.230093064616",
         "Longitude": "-82.439809594392",
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
-        "Route_Order": "5",
-        "_color": "#0891b2",
+        "Route_Group": "Lexington Round Trip 8: KY/WV \u00b7 West Hamlin to MOREHEAD",
+        "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#65a30d",
         "Geocode_Match": "10045 STATE RTE 152, WAYNE, WV, 25570",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=10045+Rt+152%2C+Wayne%2C+WV%2C+25570",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.230093064616%2C-82.439809594392"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.230093064616%2C-82.439809594392",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.271012196072%2C-82.200838089499%7C38.113858310239%2C-82.604726734455%7C38.230093064616%2C-82.439809594392%7C38.406100883449%2C-82.428171444247%7C38.35686663%2C-82.69673914%7C38.286390139164%2C-82.919059418731%7C38.088564%2C-83.1256626%7C38.182622042618%2C-83.431688139099"
       }
     },
     {
@@ -185,14 +195,16 @@
         "Notes": "",
         "Latitude": "38.90109987208",
         "Longitude": "-82.569178716707",
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
-        "Route_Order": "4",
-        "_color": "#dc2626",
+        "Route_Group": "Lexington Round Trip 2: KY/OH \u00b7 Oak Hill to Flemingsburg",
+        "Route_Order": "1",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#2563eb",
         "Geocode_Match": "199 N JACKSON ST, OAK HILL, OH, 45656",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=199+N+Jackson+St.%2C+Oak+Hill%2C+OH%2C+45656",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.90109987208%2C-82.569178716707"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.90109987208%2C-82.569178716707",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.90109987208%2C-82.569178716707%7C38.776967637737%2C-82.944043199716%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301%7C38.5915%2C-83.326361%7C38.421082757408%2C-83.732379403989%7C38.420753431938%2C-83.76038417191"
       }
     },
     {
@@ -217,14 +229,16 @@
         "Notes": "",
         "Latitude": "38.5043991",
         "Longitude": "-82.69182",
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
+        "Route_Group": "Lexington Round Trip 4: KY/OH \u00b7 Diederich to Holliday Quik Stop - KASH",
         "Route_Order": "1",
-        "_color": "#0891b2",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#f97316",
         "Geocode_Match": "1000, Diederich Boulevard, Riverview, Russell, Greenup County, Kentucky, 41101, United States",
         "Geocode_Source": "OpenStreetMap Nominatim fallback",
         "Geocode_Quality": "house",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1000+Diederich+Blvd%2C+Russell%2C+KY%2C+41169",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.5043991%2C-82.69182"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.5043991%2C-82.69182",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.5043991%2C-82.69182%7C38.48415356492%2C-82.671589257474%7C38.501694791007%2C-82.646289554426%7C38.512994300943%2C-82.658403902514%7C38.52508750124%2C-82.664892945284%7C38.537376820201%2C-82.679438390331%7C38.552654005403%2C-82.610101520264%7C38.50266167383%2C-82.60261672826"
       }
     },
     {
@@ -249,14 +263,16 @@
         "Notes": "",
         "Latitude": "38.271012196072",
         "Longitude": "-82.200838089499",
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
-        "Route_Order": "7",
-        "_color": "#0891b2",
+        "Route_Group": "Lexington Round Trip 8: KY/WV \u00b7 West Hamlin to MOREHEAD",
+        "Route_Order": "1",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#65a30d",
         "Geocode_Match": "5742 MCCLELLAN HWY, BRANCHLAND, WV, 25506",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=5742+McClellan+HWY%2C+Branchland%2C+WV%2C+25506",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.271012196072%2C-82.200838089499"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.271012196072%2C-82.200838089499",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.271012196072%2C-82.200838089499%7C38.113858310239%2C-82.604726734455%7C38.230093064616%2C-82.439809594392%7C38.406100883449%2C-82.428171444247%7C38.35686663%2C-82.69673914%7C38.286390139164%2C-82.919059418731%7C38.088564%2C-83.1256626%7C38.182622042618%2C-83.431688139099"
       }
     },
     {
@@ -281,14 +297,16 @@
         "Notes": "",
         "Latitude": "39.031609936964",
         "Longitude": "-82.63715334632",
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
+        "Route_Group": "Lexington Round Trip 1: KY/OH \u00b7 McArthur to Russell Cave",
         "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#dc2626",
         "Geocode_Match": "90 TWIN OAKS DR, JACKSON, OH, 45640",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=90+Twin+Oaks+Drive%2C+Jackson%2C+OH%2C+45640",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=39.031609936964%2C-82.63715334632"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=39.031609936964%2C-82.63715334632",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.248450625239%2C-82.488051895609%7C39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C39.13034733819%2C-82.980519890875%7C39.052316984237%2C-82.993719639181%7C38.095554515104%2C-84.486268477911%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332"
       }
     },
     {
@@ -313,14 +331,16 @@
         "Notes": "",
         "Latitude": "38.406100883449",
         "Longitude": "-82.428171444247",
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
-        "Route_Order": "6",
-        "_color": "#16a34a",
+        "Route_Group": "Lexington Round Trip 8: KY/WV \u00b7 West Hamlin to MOREHEAD",
+        "Route_Order": "4",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#65a30d",
         "Geocode_Match": "1587 HAL GREER BLVD, HUNTINGTON, WV, 25701",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1587+Hal+Greer+Blvd%2C+Huntington%2C+WV%2C+25701",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.406100883449%2C-82.428171444247"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.406100883449%2C-82.428171444247",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.271012196072%2C-82.200838089499%7C38.113858310239%2C-82.604726734455%7C38.230093064616%2C-82.439809594392%7C38.406100883449%2C-82.428171444247%7C38.35686663%2C-82.69673914%7C38.286390139164%2C-82.919059418731%7C38.088564%2C-83.1256626%7C38.182622042618%2C-83.431688139099"
       }
     },
     {
@@ -345,14 +365,16 @@
         "Notes": "",
         "Latitude": "38.556787021856",
         "Longitude": "-81.971688650872",
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
-        "Route_Order": "2",
-        "_color": "#16a34a",
+        "Route_Group": "Lexington Round Trip 6: KY/OH/WV \u00b7 Fraziers Bottom to Olive Hill Marathon",
+        "Route_Order": "1",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0891b2",
         "Geocode_Match": "17513 WINFIELD RD, WINFIELD, WV, 25213",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=17513+Winfield+Road%2C+Winfield%2C+WV%2C+25213",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.556787021856%2C-81.971688650872"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.556787021856%2C-81.971688650872",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.451529832917%2C-82.591327523655%7C38.439280286381%2C-82.609004376435%7C38.439909197444%2C-82.705132481059%7C38.3419039%2C-82.9437233%7C38.296635214434%2C-83.180232185203"
       }
     },
     {
@@ -373,12 +395,14 @@
         "Longitude": null,
         "Route_Group": "Needs manual geocode",
         "Route_Order": "",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#6b7280",
         "Geocode_Match": "",
         "Geocode_Source": "",
         "Geocode_Quality": "missing",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=4790+St+Rt+152%2C+Lavalette%2C+WV%2C+25535",
-        "Google_Maps_Coordinate": ""
+        "Google_Maps_Coordinate": "",
+        "Google_Maps_Route": ""
       }
     },
     {
@@ -403,14 +427,16 @@
         "Notes": "",
         "Latitude": "38.421082757408",
         "Longitude": "-83.732379403989",
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
-        "Route_Order": "1",
-        "_color": "#be185d",
+        "Route_Group": "Lexington Round Trip 2: KY/OH \u00b7 Oak Hill to Flemingsburg",
+        "Route_Order": "7",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#2563eb",
         "Geocode_Match": "150 E WATER ST, FLEMINGSBURG, KY, 41041",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=150++East+Water+St%2C+Flemingsburg%2C+KY%2C+41041",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.421082757408%2C-83.732379403989"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.421082757408%2C-83.732379403989",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.90109987208%2C-82.569178716707%7C38.776967637737%2C-82.944043199716%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301%7C38.5915%2C-83.326361%7C38.421082757408%2C-83.732379403989%7C38.420753431938%2C-83.76038417191"
       }
     },
     {
@@ -435,14 +461,16 @@
         "Notes": "",
         "Latitude": "39.24427872123",
         "Longitude": "-82.479262629688",
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
+        "Route_Group": "Lexington Round Trip 1: KY/OH \u00b7 McArthur to Russell Cave",
         "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#dc2626",
         "Geocode_Match": "301 S MARKET ST, MC ARTHUR, OH, 45651",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=301+S.+Market+St%2C+McArthur%2C+OH%2C+45651",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=39.24427872123%2C-82.479262629688"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=39.24427872123%2C-82.479262629688",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.248450625239%2C-82.488051895609%7C39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C39.13034733819%2C-82.980519890875%7C39.052316984237%2C-82.993719639181%7C38.095554515104%2C-84.486268477911%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332"
       }
     },
     {
@@ -467,14 +495,16 @@
         "Notes": "",
         "Latitude": "38.451529832917",
         "Longitude": "-82.591327523655",
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
-        "Route_Order": "3",
+        "Route_Group": "Lexington Round Trip 6: KY/OH/WV \u00b7 Fraziers Bottom to Olive Hill Marathon",
+        "Route_Order": "4",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#0891b2",
         "Geocode_Match": "132 CO RD 450, SOUTH POINT, OH, 45680",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=132+Co+Rd+450%2C+So.+Point%2C+OH%2C+45680",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.451529832917%2C-82.591327523655"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.451529832917%2C-82.591327523655",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.451529832917%2C-82.591327523655%7C38.439280286381%2C-82.609004376435%7C38.439909197444%2C-82.705132481059%7C38.3419039%2C-82.9437233%7C38.296635214434%2C-83.180232185203"
       }
     },
     {
@@ -499,14 +529,16 @@
         "Notes": "",
         "Latitude": "38.4536426",
         "Longitude": "-82.6730504",
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Route_Order": "7",
+        "Route_Group": "Lexington Round Trip 5: KY \u00b7 Clarks Caf\u00e9 to Greenup Ave",
+        "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#7c3aed",
         "Geocode_Match": "13th Street, Ashland, Boyd County, Kentucky, 41102, United States",
         "Geocode_Source": "OpenStreetMap Nominatim fallback",
         "Geocode_Quality": "primary",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=12649+US+60%2C+Ashland%2C+KY%2C+41102",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.4536426%2C-82.6730504"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.4536426%2C-82.6730504",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.455833%2C-82.695278%7C38.4572429%2C-82.676784%7C38.4536426%2C-82.6730504%7C38.457723898283%2C-82.666764931299%7C38.477310566334%2C-82.667076176391%7C38.460700725412%2C-82.640525070666%7C38.466307526567%2C-82.627889024055%7C38.469961530846%2C-82.621550048531"
       }
     },
     {
@@ -531,14 +563,16 @@
         "Notes": "",
         "Latitude": "38.457723898283",
         "Longitude": "-82.666764931299",
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Route_Order": "6",
+        "Route_Group": "Lexington Round Trip 5: KY \u00b7 Clarks Caf\u00e9 to Greenup Ave",
+        "Route_Order": "4",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#7c3aed",
         "Geocode_Match": "3354 13TH ST, ASHLAND, KY, 41102",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=3354+13th+Street%2C+Ashland%2C+KY%2C+41102",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.457723898283%2C-82.666764931299"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.457723898283%2C-82.666764931299",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.455833%2C-82.695278%7C38.4572429%2C-82.676784%7C38.4536426%2C-82.6730504%7C38.457723898283%2C-82.666764931299%7C38.477310566334%2C-82.667076176391%7C38.460700725412%2C-82.640525070666%7C38.466307526567%2C-82.627889024055%7C38.469961530846%2C-82.621550048531"
       }
     },
     {
@@ -563,14 +597,16 @@
         "Notes": "",
         "Latitude": "38.45545231598",
         "Longitude": "-82.306736812846",
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
-        "Route_Order": "3",
-        "_color": "#16a34a",
+        "Route_Group": "Lexington Round Trip 6: KY/OH/WV \u00b7 Fraziers Bottom to Olive Hill Marathon",
+        "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0891b2",
         "Geocode_Match": "4430 OHIO RIVER RD, HUNTINGTON, WV, 25702",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=4430+Ohio+River+Rd%2C+Huntington%2C+WV%2C+25702",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.45545231598%2C-82.306736812846"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.45545231598%2C-82.306736812846",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.451529832917%2C-82.591327523655%7C38.439280286381%2C-82.609004376435%7C38.439909197444%2C-82.705132481059%7C38.3419039%2C-82.9437233%7C38.296635214434%2C-83.180232185203"
       }
     },
     {
@@ -591,12 +627,14 @@
         "Longitude": null,
         "Route_Group": "Needs manual geocode",
         "Route_Order": "",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#6b7280",
         "Geocode_Match": "",
         "Geocode_Source": "",
         "Geocode_Quality": "missing",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=7575+St+Rt+7%2C+Proctorville%2C+OH%2C+45669",
-        "Google_Maps_Coordinate": ""
+        "Google_Maps_Coordinate": "",
+        "Google_Maps_Route": ""
       }
     },
     {
@@ -617,12 +655,14 @@
         "Longitude": null,
         "Route_Group": "Needs manual geocode",
         "Route_Order": "",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#6b7280",
         "Geocode_Match": "",
         "Geocode_Source": "",
         "Geocode_Quality": "missing",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=2927+Co+Rd+44%2C+So.+Point%2C+OH%2C+45680",
-        "Google_Maps_Coordinate": ""
+        "Google_Maps_Coordinate": "",
+        "Google_Maps_Route": ""
       }
     },
     {
@@ -647,14 +687,16 @@
         "Notes": "Across the street from Station 26",
         "Latitude": "38.418298874567",
         "Longitude": "-82.502927853442",
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
-        "Route_Order": "7",
-        "_color": "#16a34a",
+        "Route_Group": "Lexington Round Trip 7: KY/OH/WV \u00b7 31st Convenience Plus to Grayson",
+        "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#be185d",
         "Geocode_Match": "9182 CO RD 1, SOUTH POINT, OH, 45680",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=9182+Co.+Rd+1%2C+South+Point%2C+OH%2C+45680",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.418298874567%2C-82.502927853442"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.418298874567%2C-82.502927853442",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.424869447626%2C-82.392956232883%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318%7C38.379018895712%2C-82.702951075321%7C38.370254641789%2C-82.765411068432%7C38.36138224%2C-82.77280927%7C38.326594329486%2C-82.947509174543"
       }
     },
     {
@@ -679,14 +721,16 @@
         "Notes": "",
         "Latitude": "37.921975577639",
         "Longitude": "-83.259926259428",
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
-        "Route_Order": "10",
-        "_color": "#0891b2",
+        "Route_Group": "Lexington Round Trip 9: KY \u00b7 T's Quick Stop to Winchester Road",
+        "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#b45309",
         "Geocode_Match": "607 MAIN ST, WEST LIBERTY, KY, 41472",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=607+N.+Main+St%2C+West+Liberty%2C+KY%2C+41472",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.921975577639%2C-83.259926259428"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.921975577639%2C-83.259926259428",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.068642353245%2C-83.162032442735%7C37.921975577639%2C-83.259926259428%7C37.568914134966%2C-84.318334423585%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C37.948611%2C-84.541944%7C37.996863197986%2C-84.548270113657%7C38.04117400934%2C-84.471186301457"
       }
     },
     {
@@ -707,12 +751,14 @@
         "Longitude": null,
         "Route_Group": "Needs manual geocode",
         "Route_Order": "",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#6b7280",
         "Geocode_Match": "",
         "Geocode_Source": "",
         "Geocode_Quality": "missing",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=11381+St+Rt+588%2C+Rio+Grande%2C+OH%2C+45674",
-        "Google_Maps_Coordinate": ""
+        "Google_Maps_Coordinate": "",
+        "Google_Maps_Route": ""
       }
     },
     {
@@ -737,14 +783,16 @@
         "Notes": "",
         "Latitude": "38.3990149",
         "Longitude": "-82.6009318",
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
-        "Route_Order": "9",
-        "_color": "#16a34a",
+        "Route_Group": "Lexington Round Trip 7: KY/OH/WV \u00b7 31st Convenience Plus to Grayson",
+        "Route_Order": "4",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#be185d",
         "Geocode_Match": "Louisa Street, Catlettsburg, Boyd County, Kentucky, 25507, United States",
         "Geocode_Source": "OpenStreetMap Nominatim fallback",
         "Geocode_Quality": "trunk",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=28583+US+23%2C+Catlettsburg%2C+KY%2C+41129",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.3990149%2C-82.6009318"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.3990149%2C-82.6009318",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.424869447626%2C-82.392956232883%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318%7C38.379018895712%2C-82.702951075321%7C38.370254641789%2C-82.765411068432%7C38.36138224%2C-82.77280927%7C38.326594329486%2C-82.947509174543"
       }
     },
     {
@@ -769,14 +817,16 @@
         "Notes": "",
         "Latitude": "38.728867208675",
         "Longitude": "-82.859666512065",
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
-        "Route_Order": "6",
-        "_color": "#dc2626",
+        "Route_Group": "Lexington Round Trip 3: KY/OH \u00b7 Whittington's (Mike Eblin) to Vanceburg",
+        "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#16a34a",
         "Geocode_Match": "312 CENTER ST, WHEELERSBURG, OH, 45694",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=312+Center+St%2C+Wheelersburg%2C+OH%2C+45694",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.728867208675%2C-82.859666512065"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.728867208675%2C-82.859666512065",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.832941465338%2C-82.155423543231%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.6469488%2C-82.8605661%7C38.560965%2C-82.8079305%7C38.56949255328%2C-82.832644518509%7C38.419066%2C-83.145297%7C38.542704717141%2C-83.345220628916"
       }
     },
     {
@@ -801,14 +851,16 @@
         "Notes": "",
         "Latitude": "38.759178801902",
         "Longitude": "-82.990515740301",
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
-        "Route_Order": "9",
-        "_color": "#dc2626",
+        "Route_Group": "Lexington Round Trip 2: KY/OH \u00b7 Oak Hill to Flemingsburg",
+        "Route_Order": "5",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#2563eb",
         "Geocode_Match": "3008 SCIOTO TRL, PORTSMOUTH, OH, 45662",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=3008+Scioto+Trail%2C+Portsmouth%2C+OH%2C+45662",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.759178801902%2C-82.990515740301"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.759178801902%2C-82.990515740301",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.90109987208%2C-82.569178716707%7C38.776967637737%2C-82.944043199716%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301%7C38.5915%2C-83.326361%7C38.421082757408%2C-83.732379403989%7C38.420753431938%2C-83.76038417191"
       }
     },
     {
@@ -833,14 +885,16 @@
         "Notes": "",
         "Latitude": "38.075151859626",
         "Longitude": "-84.457642913927",
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
-        "Route_Order": "6",
-        "_color": "#be185d",
+        "Route_Group": "Lexington Round Trip 1: KY/OH \u00b7 McArthur to Russell Cave",
+        "Route_Order": "7",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#dc2626",
         "Geocode_Match": "1971 N BROADWAY RD, LEXINGTON, KY, 40505",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1971+North+Broadway%2C+Lexington%2C+KY%2C+40505",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.075151859626%2C-84.457642913927"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.075151859626%2C-84.457642913927",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.248450625239%2C-82.488051895609%7C39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C39.13034733819%2C-82.980519890875%7C39.052316984237%2C-82.993719639181%7C38.095554515104%2C-84.486268477911%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332"
       }
     },
     {
@@ -865,14 +919,16 @@
         "Notes": "",
         "Latitude": "38.537376820201",
         "Longitude": "-82.679438390331",
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
+        "Route_Group": "Lexington Round Trip 4: KY/OH \u00b7 Diederich to Holliday Quik Stop - KASH",
         "Route_Order": "6",
-        "_color": "#2563eb",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#f97316",
         "Geocode_Match": "824 PARK AVE, IRONTON, OH, 45638",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=824+Park+Ave%2C+Ironton%2C+OH%2C+45638",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.537376820201%2C-82.679438390331"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.537376820201%2C-82.679438390331",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.5043991%2C-82.69182%7C38.48415356492%2C-82.671589257474%7C38.501694791007%2C-82.646289554426%7C38.512994300943%2C-82.658403902514%7C38.52508750124%2C-82.664892945284%7C38.537376820201%2C-82.679438390331%7C38.552654005403%2C-82.610101520264%7C38.50266167383%2C-82.60261672826"
       }
     },
     {
@@ -897,14 +953,16 @@
         "Notes": "",
         "Latitude": "38.457595760822",
         "Longitude": "-82.338675656164",
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
-        "Route_Order": "4",
-        "_color": "#16a34a",
+        "Route_Group": "Lexington Round Trip 6: KY/OH/WV \u00b7 Fraziers Bottom to Olive Hill Marathon",
+        "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0891b2",
         "Geocode_Match": "6288 STATE RTE 7, PROCTORVILLE, OH, 45669",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=6288+St.+Rt+7%2C+Proctorville%2C+OH%2C+45669",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.457595760822%2C-82.338675656164"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.457595760822%2C-82.338675656164",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.451529832917%2C-82.591327523655%7C38.439280286381%2C-82.609004376435%7C38.439909197444%2C-82.705132481059%7C38.3419039%2C-82.9437233%7C38.296635214434%2C-83.180232185203"
       }
     },
     {
@@ -929,14 +987,16 @@
         "Notes": "",
         "Latitude": "39.13034733819",
         "Longitude": "-82.980519890875",
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
-        "Route_Order": "1",
-        "_color": "#2563eb",
+        "Route_Group": "Lexington Round Trip 1: KY/OH \u00b7 McArthur to Russell Cave",
+        "Route_Order": "4",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#dc2626",
         "Geocode_Match": "506 E EMMITT AVE, WAVERLY, OH, 45690",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=506+E+Emmitt%2C+Waverly%2C+OH%2C+45690",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=39.13034733819%2C-82.980519890875"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=39.13034733819%2C-82.980519890875",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.248450625239%2C-82.488051895609%7C39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C39.13034733819%2C-82.980519890875%7C39.052316984237%2C-82.993719639181%7C38.095554515104%2C-84.486268477911%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332"
       }
     },
     {
@@ -961,14 +1021,16 @@
         "Notes": "",
         "Latitude": "38.7210054",
         "Longitude": "-82.9618411",
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
-        "Route_Order": "7",
-        "_color": "#dc2626",
+        "Route_Group": "Lexington Round Trip 2: KY/OH \u00b7 Oak Hill to Flemingsburg",
+        "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#2563eb",
         "Geocode_Match": "US 23, Fullerton, South Shore, Greenup County, Kentucky, 41175, United States",
         "Geocode_Source": "OpenStreetMap Nominatim fallback",
         "Geocode_Quality": "trunk",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=28248+US+23%2C+South+Shore%2C+KY%2C+41175",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.7210054%2C-82.9618411"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.7210054%2C-82.9618411",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.90109987208%2C-82.569178716707%7C38.776967637737%2C-82.944043199716%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301%7C38.5915%2C-83.326361%7C38.421082757408%2C-83.732379403989%7C38.420753431938%2C-83.76038417191"
       }
     },
     {
@@ -993,14 +1055,16 @@
         "Notes": "",
         "Latitude": "39.052316984237",
         "Longitude": "-82.993719639181",
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
-        "Route_Order": "2",
-        "_color": "#2563eb",
+        "Route_Group": "Lexington Round Trip 1: KY/OH \u00b7 McArthur to Russell Cave",
+        "Route_Order": "5",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#dc2626",
         "Geocode_Match": "833 E BEAVER CREEK RD, PIKETON, OH, 45661",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=833+Beaver+Creek+Rd%2C+Piketon%2C+OH%2C+45661",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=39.052316984237%2C-82.993719639181"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=39.052316984237%2C-82.993719639181",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.248450625239%2C-82.488051895609%7C39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C39.13034733819%2C-82.980519890875%7C39.052316984237%2C-82.993719639181%7C38.095554515104%2C-84.486268477911%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332"
       }
     },
     {
@@ -1025,14 +1089,16 @@
         "Notes": "",
         "Latitude": "38.35686663",
         "Longitude": "-82.69673914",
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
-        "Route_Order": "4",
-        "_color": "#0891b2",
+        "Route_Group": "Lexington Round Trip 8: KY/WV \u00b7 West Hamlin to MOREHEAD",
+        "Route_Order": "5",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#65a30d",
         "Geocode_Match": "Clarks Pump N Shop #42, 2300 KY 3, Catlettsburg",
         "Geocode_Source": "KY TEMPO Agency Interests",
         "Geocode_Quality": "AI geometry",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=2100+St.+Rt+3%2C+Catlettsburg%2C+KY%2C+41129",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.35686663%2C-82.69673914"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.35686663%2C-82.69673914",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.271012196072%2C-82.200838089499%7C38.113858310239%2C-82.604726734455%7C38.230093064616%2C-82.439809594392%7C38.406100883449%2C-82.428171444247%7C38.35686663%2C-82.69673914%7C38.286390139164%2C-82.919059418731%7C38.088564%2C-83.1256626%7C38.182622042618%2C-83.431688139099"
       }
     },
     {
@@ -1057,14 +1123,16 @@
         "Notes": "John W. Clark Oil Company, Inc. Purchased Jan 13, 2026 DB 875 PG 167",
         "Latitude": "38.469961530846",
         "Longitude": "-82.621550048531",
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Route_Order": "3",
+        "Route_Group": "Lexington Round Trip 5: KY \u00b7 Clarks Caf\u00e9 to Greenup Ave",
+        "Route_Order": "8",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#7c3aed",
         "Geocode_Match": "3000 GREENUP AVE, ASHLAND, KY, 41101",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=3000+Greenup+Ave%2C+Ashland%2C+KY%2C+41101",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.469961530846%2C-82.621550048531"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.469961530846%2C-82.621550048531",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.455833%2C-82.695278%7C38.4572429%2C-82.676784%7C38.4536426%2C-82.6730504%7C38.457723898283%2C-82.666764931299%7C38.477310566334%2C-82.667076176391%7C38.460700725412%2C-82.640525070666%7C38.466307526567%2C-82.627889024055%7C38.469961530846%2C-82.621550048531"
       }
     },
     {
@@ -1089,14 +1157,16 @@
         "Notes": "",
         "Latitude": "38.069720319089",
         "Longitude": "-84.474923978332",
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
-        "Route_Order": "7",
-        "_color": "#be185d",
+        "Route_Group": "Lexington Round Trip 1: KY/OH \u00b7 McArthur to Russell Cave",
+        "Route_Order": "8",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#dc2626",
         "Geocode_Match": "313 W NEW CIRCLE RD, LEXINGTON, KY, 40505",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=313+West+New+Circle+Rd.%2C+Lexington%2C+KY%2C+40502",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.069720319089%2C-84.474923978332"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.069720319089%2C-84.474923978332",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.248450625239%2C-82.488051895609%7C39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C39.13034733819%2C-82.980519890875%7C39.052316984237%2C-82.993719639181%7C38.095554515104%2C-84.486268477911%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332"
       }
     },
     {
@@ -1121,14 +1191,16 @@
         "Notes": "",
         "Latitude": "38.776967637737",
         "Longitude": "-82.944043199716",
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
-        "Route_Order": "10",
-        "_color": "#dc2626",
+        "Route_Group": "Lexington Round Trip 2: KY/OH \u00b7 Oak Hill to Flemingsburg",
+        "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#2563eb",
         "Geocode_Match": "1701 STATE RTE 139, PORTSMOUTH, OH, 45662",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1701+State+Route+139%2C+Portsmouth%2C+OH%2C+45662",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.776967637737%2C-82.944043199716"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.776967637737%2C-82.944043199716",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.90109987208%2C-82.569178716707%7C38.776967637737%2C-82.944043199716%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301%7C38.5915%2C-83.326361%7C38.421082757408%2C-83.732379403989%7C38.420753431938%2C-83.76038417191"
       }
     },
     {
@@ -1153,14 +1225,16 @@
         "Notes": "",
         "Latitude": "38.52508750124",
         "Longitude": "-82.664892945284",
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
-        "Route_Order": "7",
-        "_color": "#2563eb",
+        "Route_Group": "Lexington Round Trip 4: KY/OH \u00b7 Diederich to Holliday Quik Stop - KASH",
+        "Route_Order": "5",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#f97316",
         "Geocode_Match": "1813 LIBERTY AVE, IRONTON, OH, 45638",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1813+Liberty+Ave.%2C+Ironton%2C+OH%2C+45638",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.52508750124%2C-82.664892945284"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.52508750124%2C-82.664892945284",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.5043991%2C-82.69182%7C38.48415356492%2C-82.671589257474%7C38.501694791007%2C-82.646289554426%7C38.512994300943%2C-82.658403902514%7C38.52508750124%2C-82.664892945284%7C38.537376820201%2C-82.679438390331%7C38.552654005403%2C-82.610101520264%7C38.50266167383%2C-82.60261672826"
       }
     },
     {
@@ -1185,14 +1259,16 @@
         "Notes": "",
         "Latitude": "38.5915",
         "Longitude": "-83.326361",
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Route_Order": "1",
-        "_color": "#f97316",
+        "Route_Group": "Lexington Round Trip 2: KY/OH \u00b7 Oak Hill to Flemingsburg",
+        "Route_Order": "6",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#2563eb",
         "Geocode_Match": "Bee Mart Express, 67 Commercial Dr, Vanceburg",
         "Geocode_Source": "KY TEMPO Agency Interests",
         "Geocode_Quality": "AI geometry",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=67+Commercial+Drive%2C+Vanceburg%2C+KY%2C+41179",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.5915%2C-83.326361"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.5915%2C-83.326361",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.90109987208%2C-82.569178716707%7C38.776967637737%2C-82.944043199716%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301%7C38.5915%2C-83.326361%7C38.421082757408%2C-83.732379403989%7C38.420753431938%2C-83.76038417191"
       }
     },
     {
@@ -1217,14 +1293,16 @@
         "Notes": "",
         "Latitude": "38.439909197444",
         "Longitude": "-82.705132481059",
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Route_Order": "10",
-        "_color": "#7c3aed",
+        "Route_Group": "Lexington Round Trip 6: KY/OH/WV \u00b7 Fraziers Bottom to Olive Hill Marathon",
+        "Route_Order": "6",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0891b2",
         "Geocode_Match": "373 STATE RTE 716, ASHLAND, KY, 41102",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=373+St+Rt.+716%2C+Ashland%2C+KY%2C+41102",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.439909197444%2C-82.705132481059"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.439909197444%2C-82.705132481059",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.451529832917%2C-82.591327523655%7C38.439280286381%2C-82.609004376435%7C38.439909197444%2C-82.705132481059%7C38.3419039%2C-82.9437233%7C38.296635214434%2C-83.180232185203"
       }
     },
     {
@@ -1249,14 +1327,16 @@
         "Notes": "",
         "Latitude": "38.552654005403",
         "Longitude": "-82.610101520264",
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Route_Order": "1",
-        "_color": "#7c3aed",
+        "Route_Group": "Lexington Round Trip 4: KY/OH \u00b7 Diederich to Holliday Quik Stop - KASH",
+        "Route_Order": "7",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#f97316",
         "Geocode_Match": "5197 STATE RTE 141, IRONTON, OH, 45638",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=5197+State+Route+141%2C+Ironton%2C+OH%2C+45638",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.552654005403%2C-82.610101520264"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.552654005403%2C-82.610101520264",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.5043991%2C-82.69182%7C38.48415356492%2C-82.671589257474%7C38.501694791007%2C-82.646289554426%7C38.512994300943%2C-82.658403902514%7C38.52508750124%2C-82.664892945284%7C38.537376820201%2C-82.679438390331%7C38.552654005403%2C-82.610101520264%7C38.50266167383%2C-82.60261672826"
       }
     },
     {
@@ -1281,14 +1361,16 @@
         "Notes": "",
         "Latitude": "38.398013306772",
         "Longitude": "-82.516453297453",
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
-        "Route_Order": "8",
-        "_color": "#16a34a",
+        "Route_Group": "Lexington Round Trip 7: KY/OH/WV \u00b7 31st Convenience Plus to Grayson",
+        "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#be185d",
         "Geocode_Match": "4408 PIEDMONT RD, HUNTINGTON, WV, 25704",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=4408+Piedmont+Road%2C+Huntington%2C+WV%2C+25704",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.398013306772%2C-82.516453297453"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.398013306772%2C-82.516453297453",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.424869447626%2C-82.392956232883%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318%7C38.379018895712%2C-82.702951075321%7C38.370254641789%2C-82.765411068432%7C38.36138224%2C-82.77280927%7C38.326594329486%2C-82.947509174543"
       }
     },
     {
@@ -1313,14 +1395,16 @@
         "Notes": "",
         "Latitude": "38.326594329486",
         "Longitude": "-82.947509174543",
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Route_Order": "5",
-        "_color": "#f97316",
+        "Route_Group": "Lexington Round Trip 7: KY/OH/WV \u00b7 31st Convenience Plus to Grayson",
+        "Route_Order": "8",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#be185d",
         "Geocode_Match": "311 CAROL MALONE BLVD, GRAYSON, KY, 41143",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=311+N.+Carol+Malone%2C+Grayson%2C+KY%2C+41143",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.326594329486%2C-82.947509174543"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.326594329486%2C-82.947509174543",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.424869447626%2C-82.392956232883%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318%7C38.379018895712%2C-82.702951075321%7C38.370254641789%2C-82.765411068432%7C38.36138224%2C-82.77280927%7C38.326594329486%2C-82.947509174543"
       }
     },
     {
@@ -1345,14 +1429,16 @@
         "Notes": "",
         "Latitude": "37.996863197986",
         "Longitude": "-84.548270113657",
-        "Route_Group": "Route 9: KY \u00b7 Lexington to Berea",
-        "Route_Order": "3",
+        "Route_Group": "Lexington Round Trip 9: KY \u00b7 T's Quick Stop to Winchester Road",
+        "Route_Order": "7",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#b45309",
         "Geocode_Match": "3334 CLAYS MILL RD, LEXINGTON, KY, 40503",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=3334+Clays+Mill+Road%2C+Lexington%2C+KY%2C+40503",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.996863197986%2C-84.548270113657"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.996863197986%2C-84.548270113657",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.068642353245%2C-83.162032442735%7C37.921975577639%2C-83.259926259428%7C37.568914134966%2C-84.318334423585%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C37.948611%2C-84.541944%7C37.996863197986%2C-84.548270113657%7C38.04117400934%2C-84.471186301457"
       }
     },
     {
@@ -1377,14 +1463,16 @@
         "Notes": "",
         "Latitude": "38.740186694551",
         "Longitude": "-82.964136887993",
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
-        "Route_Order": "8",
-        "_color": "#dc2626",
+        "Route_Group": "Lexington Round Trip 2: KY/OH \u00b7 Oak Hill to Flemingsburg",
+        "Route_Order": "4",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#2563eb",
         "Geocode_Match": "2626 GALLIA ST, PORTSMOUTH, OH, 45662",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=2626+Gallia+St%2C+Portsmouth%2C+OH%2C+45662",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.740186694551%2C-82.964136887993"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.740186694551%2C-82.964136887993",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.90109987208%2C-82.569178716707%7C38.776967637737%2C-82.944043199716%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301%7C38.5915%2C-83.326361%7C38.421082757408%2C-83.732379403989%7C38.420753431938%2C-83.76038417191"
       }
     },
     {
@@ -1409,14 +1497,16 @@
         "Notes": "",
         "Latitude": "38.419066",
         "Longitude": "-83.145297",
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Route_Order": "3",
-        "_color": "#f97316",
+        "Route_Group": "Lexington Round Trip 3: KY/OH \u00b7 Whittington's (Mike Eblin) to Vanceburg",
+        "Route_Order": "7",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#16a34a",
         "Geocode_Match": "Clarks Pump N Shop #56, 10824 W US 60, Olive Hill",
         "Geocode_Source": "KY TEMPO Agency Interests",
         "Geocode_Quality": "AI geometry",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=10824+West+US+60%2C+Olive+Hill%2C+Ky%2C+41164",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.419066%2C-83.145297"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.419066%2C-83.145297",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.832941465338%2C-82.155423543231%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.6469488%2C-82.8605661%7C38.560965%2C-82.8079305%7C38.56949255328%2C-82.832644518509%7C38.419066%2C-83.145297%7C38.542704717141%2C-83.345220628916"
       }
     },
     {
@@ -1441,14 +1531,16 @@
         "Notes": "",
         "Latitude": "38.04117400934",
         "Longitude": "-84.471186301457",
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
-        "Route_Order": "10",
-        "_color": "#be185d",
+        "Route_Group": "Lexington Round Trip 9: KY \u00b7 T's Quick Stop to Winchester Road",
+        "Route_Order": "8",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#b45309",
         "Geocode_Match": "922 DETROIT AVE, LEXINGTON, KY, 40505",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=922+Detroit+Ave%2C+Lexington%2C+KY%2C+40505",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.04117400934%2C-84.471186301457"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.04117400934%2C-84.471186301457",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.068642353245%2C-83.162032442735%7C37.921975577639%2C-83.259926259428%7C37.568914134966%2C-84.318334423585%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C37.948611%2C-84.541944%7C37.996863197986%2C-84.548270113657%7C38.04117400934%2C-84.471186301457"
       }
     },
     {
@@ -1473,14 +1565,16 @@
         "Notes": "",
         "Latitude": "38.370254641789",
         "Longitude": "-82.765411068432",
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Route_Order": "9",
-        "_color": "#f97316",
+        "Route_Group": "Lexington Round Trip 7: KY/OH/WV \u00b7 31st Convenience Plus to Grayson",
+        "Route_Order": "6",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#be185d",
         "Geocode_Match": "1965 US HWY 60, RUSH, KY, 41168",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1965+US+Route+60%2C+Rush%2C+KY%2C+41168",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.370254641789%2C-82.765411068432"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.370254641789%2C-82.765411068432",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.424869447626%2C-82.392956232883%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318%7C38.379018895712%2C-82.702951075321%7C38.370254641789%2C-82.765411068432%7C38.36138224%2C-82.77280927%7C38.326594329486%2C-82.947509174543"
       }
     },
     {
@@ -1505,14 +1599,16 @@
         "Notes": "",
         "Latitude": "38.049468115848",
         "Longitude": "-84.527226966676",
-        "Route_Group": "Route 9: KY \u00b7 Lexington to Berea",
-        "Route_Order": "2",
-        "_color": "#b45309",
+        "Route_Group": "Lexington Round Trip 10: KY \u00b7 Frankfort to Marathon Food Mart CC3",
+        "Route_Order": "7",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0f766e",
         "Geocode_Match": "1419 VERSAILLES RD, LEXINGTON, KY, 40504",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1419+Versailles+Rd%2C+Lexington%2C+KY%2C+40504",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.049468115848%2C-84.527226966676"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.049468115848%2C-84.527226966676",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.187688429852%2C-84.810980108947%7C38.162024093287%2C-84.676410982831%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289%7C38.057889739685%2C-84.532293904374%7C38.049468115848%2C-84.527226966676%7C38.050013921372%2C-84.517664633703"
       }
     },
     {
@@ -1537,14 +1633,16 @@
         "Notes": "",
         "Latitude": "38.501694791007",
         "Longitude": "-82.646289554426",
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
-        "Route_Order": "9",
-        "_color": "#2563eb",
+        "Route_Group": "Lexington Round Trip 4: KY/OH \u00b7 Diederich to Holliday Quik Stop - KASH",
+        "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#f97316",
         "Geocode_Match": "409 MARION PIKE, COAL GROVE, OH, 45638",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=409+Marion+Pike%2C+Coal+Grove%2C+OH%2C+45637",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.501694791007%2C-82.646289554426"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.501694791007%2C-82.646289554426",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.5043991%2C-82.69182%7C38.48415356492%2C-82.671589257474%7C38.501694791007%2C-82.646289554426%7C38.512994300943%2C-82.658403902514%7C38.52508750124%2C-82.664892945284%7C38.537376820201%2C-82.679438390331%7C38.552654005403%2C-82.610101520264%7C38.50266167383%2C-82.60261672826"
       }
     },
     {
@@ -1569,14 +1667,16 @@
         "Notes": "",
         "Latitude": "38.460700725412",
         "Longitude": "-82.640525070666",
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Route_Order": "5",
+        "Route_Group": "Lexington Round Trip 5: KY \u00b7 Clarks Caf\u00e9 to Greenup Ave",
+        "Route_Order": "6",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#7c3aed",
         "Geocode_Match": "1920 29TH ST, ASHLAND, KY, 41101",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1920+29th+St%2C+Ashland%2C+KY%2C+41101",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.460700725412%2C-82.640525070666"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.460700725412%2C-82.640525070666",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.455833%2C-82.695278%7C38.4572429%2C-82.676784%7C38.4536426%2C-82.6730504%7C38.457723898283%2C-82.666764931299%7C38.477310566334%2C-82.667076176391%7C38.460700725412%2C-82.640525070666%7C38.466307526567%2C-82.627889024055%7C38.469961530846%2C-82.621550048531"
       }
     },
     {
@@ -1601,14 +1701,16 @@
         "Notes": "",
         "Latitude": "38.6469488",
         "Longitude": "-82.8605661",
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
-        "Route_Order": "3",
-        "_color": "#2563eb",
+        "Route_Group": "Lexington Round Trip 3: KY/OH \u00b7 Whittington's (Mike Eblin) to Vanceburg",
+        "Route_Order": "4",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#16a34a",
         "Geocode_Match": "Jesse Stuart Memorial Bridge, Grays Branch, Green Township, Greenup County, Kentucky, 45629, United States",
         "Geocode_Source": "OpenStreetMap Nominatim fallback",
         "Geocode_Quality": "trunk",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1233+KY+10%2C+Greenup%2C+KY%2C+41144",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.6469488%2C-82.8605661"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.6469488%2C-82.8605661",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.832941465338%2C-82.155423543231%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.6469488%2C-82.8605661%7C38.560965%2C-82.8079305%7C38.56949255328%2C-82.832644518509%7C38.419066%2C-83.145297%7C38.542704717141%2C-83.345220628916"
       }
     },
     {
@@ -1633,14 +1735,16 @@
         "Notes": "",
         "Latitude": "38.36138224",
         "Longitude": "-82.77280927",
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Route_Order": "8",
-        "_color": "#f97316",
+        "Route_Group": "Lexington Round Trip 7: KY/OH/WV \u00b7 31st Convenience Plus to Grayson",
+        "Route_Order": "7",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#be185d",
         "Geocode_Match": "Clarks Pump N Shop 75 Ro 3823, 9822 US 60, Rush",
         "Geocode_Source": "KY TEMPO Agency Interests",
         "Geocode_Quality": "AI geometry",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=9822+E.+US+Highway+60%2C+Rush%2C+KY%2C+41168",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.36138224%2C-82.77280927"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.36138224%2C-82.77280927",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.424869447626%2C-82.392956232883%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318%7C38.379018895712%2C-82.702951075321%7C38.370254641789%2C-82.765411068432%7C38.36138224%2C-82.77280927%7C38.326594329486%2C-82.947509174543"
       }
     },
     {
@@ -1665,14 +1769,16 @@
         "Notes": "",
         "Latitude": "38.162024093287",
         "Longitude": "-84.676410982831",
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Route_Order": "5",
-        "_color": "#65a30d",
+        "Route_Group": "Lexington Round Trip 10: KY \u00b7 Frankfort to Marathon Food Mart CC3",
+        "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0f766e",
         "Geocode_Match": "300 LACEFIELD ST, MIDWAY, KY, 40347",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=300+Lacefield+St%2C+Midway%2C+KY%2C+40347",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.162024093287%2C-84.676410982831"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.162024093287%2C-84.676410982831",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.187688429852%2C-84.810980108947%7C38.162024093287%2C-84.676410982831%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289%7C38.057889739685%2C-84.532293904374%7C38.049468115848%2C-84.527226966676%7C38.050013921372%2C-84.517664633703"
       }
     },
     {
@@ -1697,14 +1803,16 @@
         "Notes": "",
         "Latitude": "37.948611",
         "Longitude": "-84.541944",
-        "Route_Group": "Route 9: KY \u00b7 Lexington to Berea",
-        "Route_Order": "4",
+        "Route_Group": "Lexington Round Trip 9: KY \u00b7 T's Quick Stop to Winchester Road",
+        "Route_Order": "6",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#b45309",
         "Geocode_Match": "Clarks Pump N Shop #78, 100 Bethel Harvest Way, Nicholasville",
         "Geocode_Source": "KY TEMPO Agency Interests",
         "Geocode_Quality": "AI geometry",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=100+Bethel+Harvest+Drive%2C+Nicholsville%2C+KY%2C+40356",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.948611%2C-84.541944"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.948611%2C-84.541944",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.068642353245%2C-83.162032442735%7C37.921975577639%2C-83.259926259428%7C37.568914134966%2C-84.318334423585%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C37.948611%2C-84.541944%7C37.996863197986%2C-84.548270113657%7C38.04117400934%2C-84.471186301457"
       }
     },
     {
@@ -1729,14 +1837,16 @@
         "Notes": "",
         "Latitude": "38.089253912797",
         "Longitude": "-84.536736457289",
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Route_Order": "9",
-        "_color": "#65a30d",
+        "Route_Group": "Lexington Round Trip 10: KY \u00b7 Frankfort to Marathon Food Mart CC3",
+        "Route_Order": "5",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0f766e",
         "Geocode_Match": "2670 SANDERSVILLE RD, LEXINGTON, KY, 40511",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=2670+Sandersville+Rd%2C+Lexington%2C+KY%2C+40511",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.089253912797%2C-84.536736457289"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.089253912797%2C-84.536736457289",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.187688429852%2C-84.810980108947%7C38.162024093287%2C-84.676410982831%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289%7C38.057889739685%2C-84.532293904374%7C38.049468115848%2C-84.527226966676%7C38.050013921372%2C-84.517664633703"
       }
     },
     {
@@ -1761,14 +1871,16 @@
         "Notes": "",
         "Latitude": "37.997286549092",
         "Longitude": "-84.174907557413",
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
+        "Route_Group": "Lexington Round Trip 9: KY \u00b7 T's Quick Stop to Winchester Road",
         "Route_Order": "5",
-        "_color": "#be185d",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#b45309",
         "Geocode_Match": "201 N MAIN ST, WINCHESTER, KY, 40391",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=201+N+Main+St%2C+Winchester%2C+KY%2C+40391",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.997286549092%2C-84.174907557413"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.997286549092%2C-84.174907557413",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.068642353245%2C-83.162032442735%7C37.921975577639%2C-83.259926259428%7C37.568914134966%2C-84.318334423585%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C37.948611%2C-84.541944%7C37.996863197986%2C-84.548270113657%7C38.04117400934%2C-84.471186301457"
       }
     },
     {
@@ -1793,14 +1905,16 @@
         "Notes": "",
         "Latitude": "38.275301338024",
         "Longitude": "-84.55490272128",
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Route_Order": "1",
-        "_color": "#65a30d",
+        "Route_Group": "Lexington Round Trip 11: KY \u00b7 Canewood to Palumbo Lumber Co.",
+        "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#ea580c",
         "Geocode_Match": "381 CHERRY BLOSSOM WAY, GEORGETOWN, KY, 40324",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=381+Cherry+Blossom+Way%2C+Georgetown%2C+KY%2C+40324",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.275301338024%2C-84.55490272128"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.275301338024%2C-84.55490272128",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.20878896386%2C-84.594553294954%7C38.275301338024%2C-84.55490272128%7C38.231091196337%2C-84.535236638363%7C38.214590499843%2C-84.54014981542%7C38.061167811605%2C-84.51673272832"
       }
     },
     {
@@ -1825,14 +1939,16 @@
         "Notes": "",
         "Latitude": "38.214590499843",
         "Longitude": "-84.54014981542",
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Route_Order": "3",
-        "_color": "#65a30d",
+        "Route_Group": "Lexington Round Trip 11: KY \u00b7 Canewood to Palumbo Lumber Co.",
+        "Route_Order": "4",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#ea580c",
         "Geocode_Match": "2001 PARIS PIKE, GEORGETOWN, KY, 40324",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=2001+Paris+Pike%2C+Georgetown%2C+KY%2C+40324",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.214590499843%2C-84.54014981542"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.214590499843%2C-84.54014981542",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.20878896386%2C-84.594553294954%7C38.275301338024%2C-84.55490272128%7C38.231091196337%2C-84.535236638363%7C38.214590499843%2C-84.54014981542%7C38.061167811605%2C-84.51673272832"
       }
     },
     {
@@ -1857,14 +1973,16 @@
         "Notes": "",
         "Latitude": "38.231091196337",
         "Longitude": "-84.535236638363",
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Route_Order": "2",
-        "_color": "#65a30d",
+        "Route_Group": "Lexington Round Trip 11: KY \u00b7 Canewood to Palumbo Lumber Co.",
+        "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#ea580c",
         "Geocode_Match": "480 CONNECTOR RD, GEORGETOWN, KY, 40324",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=480+Connector+Rd%2C+Georgetown%2C+KY%2C+40324",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.231091196337%2C-84.535236638363"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.231091196337%2C-84.535236638363",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.20878896386%2C-84.594553294954%7C38.275301338024%2C-84.55490272128%7C38.231091196337%2C-84.535236638363%7C38.214590499843%2C-84.54014981542%7C38.061167811605%2C-84.51673272832"
       }
     },
     {
@@ -1889,14 +2007,16 @@
         "Notes": "",
         "Latitude": "38.20878896386",
         "Longitude": "-84.594553294954",
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Route_Order": "4",
-        "_color": "#65a30d",
+        "Route_Group": "Lexington Round Trip 11: KY \u00b7 Canewood to Palumbo Lumber Co.",
+        "Route_Order": "1",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#ea580c",
         "Geocode_Match": "100 CANEWOOD CENTER DR, GEORGETOWN, KY, 40324",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=100+Canewood+Ctr+Dr%2C+Georgetown%2C+KY%2C+40324",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.20878896386%2C-84.594553294954"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.20878896386%2C-84.594553294954",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.20878896386%2C-84.594553294954%7C38.275301338024%2C-84.55490272128%7C38.231091196337%2C-84.535236638363%7C38.214590499843%2C-84.54014981542%7C38.061167811605%2C-84.51673272832"
       }
     },
     {
@@ -1921,14 +2041,16 @@
         "Notes": "",
         "Latitude": "38.04472816808",
         "Longitude": "-84.663965360438",
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Route_Order": "7",
-        "_color": "#65a30d",
+        "Route_Group": "Lexington Round Trip 10: KY \u00b7 Frankfort to Marathon Food Mart CC3",
+        "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0f766e",
         "Geocode_Match": "3590 LEXINGTON RD, VERSAILLES, KY, 40383",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=3590+Lexington+Rd%2C+Versailles%2C+KY%2C+40383",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.04472816808%2C-84.663965360438"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.04472816808%2C-84.663965360438",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.187688429852%2C-84.810980108947%7C38.162024093287%2C-84.676410982831%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289%7C38.057889739685%2C-84.532293904374%7C38.049468115848%2C-84.527226966676%7C38.050013921372%2C-84.517664633703"
       }
     },
     {
@@ -1953,14 +2075,16 @@
         "Notes": "",
         "Latitude": "38.088131399617",
         "Longitude": "-84.548607642383",
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Route_Order": "8",
-        "_color": "#65a30d",
+        "Route_Group": "Lexington Round Trip 10: KY \u00b7 Frankfort to Marathon Food Mart CC3",
+        "Route_Order": "4",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0f766e",
         "Geocode_Match": "100 LUCILLE DR, LEXINGTON, KY, 40511",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=100+Lucille+Dr%2C+Lexington%2C+KY%2C+40511",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.088131399617%2C-84.548607642383"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.088131399617%2C-84.548607642383",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.187688429852%2C-84.810980108947%7C38.162024093287%2C-84.676410982831%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289%7C38.057889739685%2C-84.532293904374%7C38.049468115848%2C-84.527226966676%7C38.050013921372%2C-84.517664633703"
       }
     },
     {
@@ -1985,14 +2109,16 @@
         "Notes": "",
         "Latitude": "38.187688429852",
         "Longitude": "-84.810980108947",
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Route_Order": "6",
-        "_color": "#65a30d",
+        "Route_Group": "Lexington Round Trip 10: KY \u00b7 Frankfort to Marathon Food Mart CC3",
+        "Route_Order": "1",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0f766e",
         "Geocode_Match": "100 ISAAC SHELBY CIR W, FRANKFORT, KY, 40601",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=100+Isaac+Shelby+Cir+W%2C+Frankfort%2C+KY%2C+40601",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.187688429852%2C-84.810980108947"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.187688429852%2C-84.810980108947",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.187688429852%2C-84.810980108947%7C38.162024093287%2C-84.676410982831%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289%7C38.057889739685%2C-84.532293904374%7C38.049468115848%2C-84.527226966676%7C38.050013921372%2C-84.517664633703"
       }
     },
     {
@@ -2017,14 +2143,16 @@
         "Notes": "",
         "Latitude": "37.568914134966",
         "Longitude": "-84.318334423585",
-        "Route_Group": "Route 9: KY \u00b7 Lexington to Berea",
-        "Route_Order": "5",
+        "Route_Group": "Lexington Round Trip 9: KY \u00b7 T's Quick Stop to Winchester Road",
+        "Route_Order": "3",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#b45309",
         "Geocode_Match": "274 PAINT LICK RD, BEREA, KY, 40403",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=274+Paint+Lick+Rd.%2C+Berea%2C+KY%2C+40403",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.568914134966%2C-84.318334423585"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.568914134966%2C-84.318334423585",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.068642353245%2C-83.162032442735%7C37.921975577639%2C-83.259926259428%7C37.568914134966%2C-84.318334423585%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C37.948611%2C-84.541944%7C37.996863197986%2C-84.548270113657%7C38.04117400934%2C-84.471186301457"
       }
     },
     {
@@ -2049,14 +2177,16 @@
         "Notes": "",
         "Latitude": "38.182622042618",
         "Longitude": "-83.431688139099",
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
-        "Route_Order": "3",
-        "_color": "#be185d",
+        "Route_Group": "Lexington Round Trip 8: KY/WV \u00b7 West Hamlin to MOREHEAD",
+        "Route_Order": "8",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#65a30d",
         "Geocode_Match": "218 ROWAN ST, MOREHEAD, KY, 40351",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=218+Rowan+Street%2C+Morehead%2C+KY%2C+40351",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.182622042618%2C-83.431688139099"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.182622042618%2C-83.431688139099",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.271012196072%2C-82.200838089499%7C38.113858310239%2C-82.604726734455%7C38.230093064616%2C-82.439809594392%7C38.406100883449%2C-82.428171444247%7C38.35686663%2C-82.69673914%7C38.286390139164%2C-82.919059418731%7C38.088564%2C-83.1256626%7C38.182622042618%2C-83.431688139099"
       }
     },
     {
@@ -2081,14 +2211,16 @@
         "Notes": "",
         "Latitude": "38.512994300943",
         "Longitude": "-82.658403902514",
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
-        "Route_Order": "8",
-        "_color": "#2563eb",
+        "Route_Group": "Lexington Round Trip 4: KY/OH \u00b7 Diederich to Holliday Quik Stop - KASH",
+        "Route_Order": "4",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#f97316",
         "Geocode_Match": "2913 S 9TH ST, IRONTON, OH, 45638",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=2913+S.+9TH+STREET%2C+Ironton%2C+OH%2C+45638",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.512994300943%2C-82.658403902514"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.512994300943%2C-82.658403902514",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.5043991%2C-82.69182%7C38.48415356492%2C-82.671589257474%7C38.501694791007%2C-82.646289554426%7C38.512994300943%2C-82.658403902514%7C38.52508750124%2C-82.664892945284%7C38.537376820201%2C-82.679438390331%7C38.552654005403%2C-82.610101520264%7C38.50266167383%2C-82.60261672826"
       }
     },
     {
@@ -2113,14 +2245,16 @@
         "Notes": "",
         "Latitude": "38.420753431938",
         "Longitude": "-83.76038417191",
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
-        "Route_Order": "2",
-        "_color": "#be185d",
+        "Route_Group": "Lexington Round Trip 2: KY/OH \u00b7 Oak Hill to Flemingsburg",
+        "Route_Order": "8",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#2563eb",
         "Geocode_Match": "1306 ELIZAVILLE RD, FLEMINGSBURG, KY, 41041",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1306+Elizaville+Road%2C+Flemingsburg%2C+KY%2C+41041",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.420753431938%2C-83.76038417191"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.420753431938%2C-83.76038417191",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.90109987208%2C-82.569178716707%7C38.776967637737%2C-82.944043199716%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301%7C38.5915%2C-83.326361%7C38.421082757408%2C-83.732379403989%7C38.420753431938%2C-83.76038417191"
       }
     },
     {
@@ -2145,14 +2279,16 @@
         "Notes": "",
         "Latitude": "38.113858310239",
         "Longitude": "-82.604726734455",
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
-        "Route_Order": "6",
-        "_color": "#0891b2",
+        "Route_Group": "Lexington Round Trip 8: KY/WV \u00b7 West Hamlin to MOREHEAD",
+        "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#65a30d",
         "Geocode_Match": "203 STATE HWY 3, LOUISA, KY, 41230",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=203+KY+3%2C+Louisa%2C+KY%2C+41230",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.113858310239%2C-82.604726734455"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.113858310239%2C-82.604726734455",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.271012196072%2C-82.200838089499%7C38.113858310239%2C-82.604726734455%7C38.230093064616%2C-82.439809594392%7C38.406100883449%2C-82.428171444247%7C38.35686663%2C-82.69673914%7C38.286390139164%2C-82.919059418731%7C38.088564%2C-83.1256626%7C38.182622042618%2C-83.431688139099"
       }
     },
     {
@@ -2177,14 +2313,16 @@
         "Notes": "",
         "Latitude": "38.542704717141",
         "Longitude": "-83.345220628916",
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Route_Order": "2",
-        "_color": "#f97316",
+        "Route_Group": "Lexington Round Trip 3: KY/OH \u00b7 Whittington's (Mike Eblin) to Vanceburg",
+        "Route_Order": "8",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#16a34a",
         "Geocode_Match": "241 CLARKSBURG BR RD, VANCEBURG, KY, 41179",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=241+Clarksburg+Road%2C+Vanceburg%2C+KY%2C+41179",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.542704717141%2C-83.345220628916"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.542704717141%2C-83.345220628916",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.832941465338%2C-82.155423543231%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.6469488%2C-82.8605661%7C38.560965%2C-82.8079305%7C38.56949255328%2C-82.832644518509%7C38.419066%2C-83.145297%7C38.542704717141%2C-83.345220628916"
       }
     },
     {
@@ -2209,14 +2347,16 @@
         "Notes": "",
         "Latitude": "38.057889739685",
         "Longitude": "-84.532293904374",
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Route_Order": "10",
-        "_color": "#65a30d",
+        "Route_Group": "Lexington Round Trip 10: KY \u00b7 Frankfort to Marathon Food Mart CC3",
+        "Route_Order": "6",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0f766e",
         "Geocode_Match": "720 PHILLIPS LN, LEXINGTON, KY, 40504",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=720+Phillips+Lane%2C+Lexington%2C+KY%2C+40504",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.057889739685%2C-84.532293904374"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.057889739685%2C-84.532293904374",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.187688429852%2C-84.810980108947%7C38.162024093287%2C-84.676410982831%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289%7C38.057889739685%2C-84.532293904374%7C38.049468115848%2C-84.527226966676%7C38.050013921372%2C-84.517664633703"
       }
     },
     {
@@ -2241,14 +2381,16 @@
         "Notes": "",
         "Latitude": "38.3419039",
         "Longitude": "-82.9437233",
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Route_Order": "6",
-        "_color": "#f97316",
+        "Route_Group": "Lexington Round Trip 6: KY/OH/WV \u00b7 Fraziers Bottom to Olive Hill Marathon",
+        "Route_Order": "7",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0891b2",
         "Geocode_Match": "McClave Street, Grayson, Carter County, Kentucky, 41143, United States",
         "Geocode_Source": "OpenStreetMap Nominatim fallback",
         "Geocode_Quality": "residential",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=190+McClave+Street%2C+Grayson%2C+KY%2C+41173",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.3419039%2C-82.9437233"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.3419039%2C-82.9437233",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.451529832917%2C-82.591327523655%7C38.439280286381%2C-82.609004376435%7C38.439909197444%2C-82.705132481059%7C38.3419039%2C-82.9437233%7C38.296635214434%2C-83.180232185203"
       }
     },
     {
@@ -2273,14 +2415,16 @@
         "Notes": "",
         "Latitude": "37.997919980046",
         "Longitude": "-84.17458533382",
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
+        "Route_Group": "Lexington Round Trip 9: KY \u00b7 T's Quick Stop to Winchester Road",
         "Route_Order": "4",
-        "_color": "#be185d",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#b45309",
         "Geocode_Match": "221 N MAIN ST, WINCHESTER, KY, 40391",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=221+N+Main+Street%2C+Winchester%2C+KY%2C+40391",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.997919980046%2C-84.17458533382"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=37.997919980046%2C-84.17458533382",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.068642353245%2C-83.162032442735%7C37.921975577639%2C-83.259926259428%7C37.568914134966%2C-84.318334423585%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C37.948611%2C-84.541944%7C37.996863197986%2C-84.548270113657%7C38.04117400934%2C-84.471186301457"
       }
     },
     {
@@ -2305,14 +2449,16 @@
         "Notes": "",
         "Latitude": "39.248450625239",
         "Longitude": "-82.488051895609",
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
+        "Route_Group": "Lexington Round Trip 1: KY/OH \u00b7 McArthur to Russell Cave",
         "Route_Order": "1",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#dc2626",
         "Geocode_Match": "637 W MAIN ST, MC ARTHUR, OH, 45651",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=637+W.+Main+Street%2C+McArthur%2C+OH%2C+45651",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=39.248450625239%2C-82.488051895609"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=39.248450625239%2C-82.488051895609",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.248450625239%2C-82.488051895609%7C39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C39.13034733819%2C-82.980519890875%7C39.052316984237%2C-82.993719639181%7C38.095554515104%2C-84.486268477911%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332"
       }
     },
     {
@@ -2337,14 +2483,16 @@
         "Notes": "",
         "Latitude": "38.728742215953",
         "Longitude": "-82.844277520279",
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
-        "Route_Order": "5",
-        "_color": "#dc2626",
+        "Route_Group": "Lexington Round Trip 3: KY/OH \u00b7 Whittington's (Mike Eblin) to Vanceburg",
+        "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#16a34a",
         "Geocode_Match": "313 CENTER ST, WHEELERSBURG, OH, 45694",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=313+Center+Street%2C+Wheelersburg%2C+OH%2C+45662",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.728742215953%2C-82.844277520279"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.728742215953%2C-82.844277520279",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.832941465338%2C-82.155423543231%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.6469488%2C-82.8605661%7C38.560965%2C-82.8079305%7C38.56949255328%2C-82.832644518509%7C38.419066%2C-83.145297%7C38.542704717141%2C-83.345220628916"
       }
     },
     {
@@ -2369,14 +2517,16 @@
         "Notes": "",
         "Latitude": "38.466307526567",
         "Longitude": "-82.627889024055",
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Route_Order": "4",
+        "Route_Group": "Lexington Round Trip 5: KY \u00b7 Clarks Caf\u00e9 to Greenup Ave",
+        "Route_Order": "7",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#7c3aed",
         "Geocode_Match": "29TH ST & LEXINGTON AVE, ASHLAND, KY, 41101",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=29th+Street+%26+Lexington+Ave%2C+Ashland%2C+KY%2C+41101",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.466307526567%2C-82.627889024055"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.466307526567%2C-82.627889024055",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.455833%2C-82.695278%7C38.4572429%2C-82.676784%7C38.4536426%2C-82.6730504%7C38.457723898283%2C-82.666764931299%7C38.477310566334%2C-82.667076176391%7C38.460700725412%2C-82.640525070666%7C38.466307526567%2C-82.627889024055%7C38.469961530846%2C-82.621550048531"
       }
     },
     {
@@ -2401,14 +2551,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.455833",
         "Longitude": "-82.695278",
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Route_Order": "9",
+        "Route_Group": "Lexington Round Trip 5: KY \u00b7 Clarks Caf\u00e9 to Greenup Ave",
+        "Route_Order": "1",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#7c3aed",
         "Geocode_Match": "Clarks Pump-N-Shop #27, 244 W Donta Rd, Ashland",
         "Geocode_Source": "KY TEMPO Agency Interests",
         "Geocode_Quality": "AI geometry",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=Donta+Road%2C+Ashland%2C+KY%2C+41105",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.455833%2C-82.695278"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.455833%2C-82.695278",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.455833%2C-82.695278%7C38.4572429%2C-82.676784%7C38.4536426%2C-82.6730504%7C38.457723898283%2C-82.666764931299%7C38.477310566334%2C-82.667076176391%7C38.460700725412%2C-82.640525070666%7C38.466307526567%2C-82.627889024055%7C38.469961530846%2C-82.621550048531"
       }
     },
     {
@@ -2433,14 +2585,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.477310566334",
         "Longitude": "-82.667076176391",
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
-        "Route_Order": "2",
-        "_color": "#0891b2",
+        "Route_Group": "Lexington Round Trip 5: KY \u00b7 Clarks Caf\u00e9 to Greenup Ave",
+        "Route_Order": "5",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#7c3aed",
         "Geocode_Match": "101 WHEATLEY RD, ASHLAND, KY, 41101",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=101+Wheatley+Road%2C+Ashland%2C+KY%2C+41101",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.477310566334%2C-82.667076176391"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.477310566334%2C-82.667076176391",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.455833%2C-82.695278%7C38.4572429%2C-82.676784%7C38.4536426%2C-82.6730504%7C38.457723898283%2C-82.666764931299%7C38.477310566334%2C-82.667076176391%7C38.460700725412%2C-82.640525070666%7C38.466307526567%2C-82.627889024055%7C38.469961530846%2C-82.621550048531"
       }
     },
     {
@@ -2465,14 +2619,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.4572429",
         "Longitude": "-82.676784",
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Route_Order": "8",
+        "Route_Group": "Lexington Round Trip 5: KY \u00b7 Clarks Caf\u00e9 to Greenup Ave",
+        "Route_Order": "2",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#7c3aed",
         "Geocode_Match": "Winslow Road, Ashland, Boyd County, Kentucky, 41102, United States",
         "Geocode_Source": "OpenStreetMap Nominatim fallback",
         "Geocode_Quality": "residential",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=849+Winslow+Road%2C+Ashland%2C+KY%2C+41101",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.4572429%2C-82.676784"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.4572429%2C-82.676784",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.455833%2C-82.695278%7C38.4572429%2C-82.676784%7C38.4536426%2C-82.6730504%7C38.457723898283%2C-82.666764931299%7C38.477310566334%2C-82.667076176391%7C38.460700725412%2C-82.640525070666%7C38.466307526567%2C-82.627889024055%7C38.469961530846%2C-82.621550048531"
       }
     },
     {
@@ -2497,14 +2653,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.095554515104",
         "Longitude": "-84.486268477911",
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
-        "Route_Order": "8",
-        "_color": "#be185d",
+        "Route_Group": "Lexington Round Trip 1: KY/OH \u00b7 McArthur to Russell Cave",
+        "Route_Order": "6",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#dc2626",
         "Geocode_Match": "1900 NEWTOWN PIKE, LEXINGTON, KY, 40511",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1900+Newtown+Pike%2C+Lexington%2C+KY%2C+40511",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.095554515104%2C-84.486268477911"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.095554515104%2C-84.486268477911",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.248450625239%2C-82.488051895609%7C39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C39.13034733819%2C-82.980519890875%7C39.052316984237%2C-82.993719639181%7C38.095554515104%2C-84.486268477911%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332"
       }
     },
     {
@@ -2529,14 +2687,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.286390139164",
         "Longitude": "-82.919059418731",
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Route_Order": "7",
-        "_color": "#f97316",
+        "Route_Group": "Lexington Round Trip 8: KY/WV \u00b7 West Hamlin to MOREHEAD",
+        "Route_Order": "6",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#65a30d",
         "Geocode_Match": "3686 S STATE HWY 1, GRAYSON, KY, 41143",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=3686+KY+RT+1%2C+Grayson%2C+KY%2C+41143",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.286390139164%2C-82.919059418731"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.286390139164%2C-82.919059418731",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.271012196072%2C-82.200838089499%7C38.113858310239%2C-82.604726734455%7C38.230093064616%2C-82.439809594392%7C38.406100883449%2C-82.428171444247%7C38.35686663%2C-82.69673914%7C38.286390139164%2C-82.919059418731%7C38.088564%2C-83.1256626%7C38.182622042618%2C-83.431688139099"
       }
     },
     {
@@ -2561,14 +2721,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.424869447626",
         "Longitude": "-82.392956232883",
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
-        "Route_Order": "5",
-        "_color": "#16a34a",
+        "Route_Group": "Lexington Round Trip 7: KY/OH/WV \u00b7 31st Convenience Plus to Grayson",
+        "Route_Order": "1",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#be185d",
         "Geocode_Match": "719 31ST ST, HUNTINGTON, WV, 25702",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=719+31ST+Street%2C+Huntington%2C+WV%2C+25702",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.424869447626%2C-82.392956232883"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.424869447626%2C-82.392956232883",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.424869447626%2C-82.392956232883%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318%7C38.379018895712%2C-82.702951075321%7C38.370254641789%2C-82.765411068432%7C38.36138224%2C-82.77280927%7C38.326594329486%2C-82.947509174543"
       }
     },
     {
@@ -2593,14 +2755,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.50266167383",
         "Longitude": "-82.60261672826",
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Route_Order": "2",
-        "_color": "#7c3aed",
+        "Route_Group": "Lexington Round Trip 4: KY/OH \u00b7 Diederich to Holliday Quik Stop - KASH",
+        "Route_Order": "8",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#f97316",
         "Geocode_Match": "3302 STATE RTE 243, IRONTON, OH, 45638",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=3302+St+Rt+243%2C+Ironton%2C+OH%2C+45631",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.50266167383%2C-82.60261672826"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.50266167383%2C-82.60261672826",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.5043991%2C-82.69182%7C38.48415356492%2C-82.671589257474%7C38.501694791007%2C-82.646289554426%7C38.512994300943%2C-82.658403902514%7C38.52508750124%2C-82.664892945284%7C38.537376820201%2C-82.679438390331%7C38.552654005403%2C-82.610101520264%7C38.50266167383%2C-82.60261672826"
       }
     },
     {
@@ -2621,12 +2785,14 @@
         "Longitude": null,
         "Route_Group": "Needs manual geocode",
         "Route_Order": "",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#6b7280",
         "Geocode_Match": "",
         "Geocode_Source": "",
         "Geocode_Quality": "missing",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=569+RTE+52%2C+Fort+Gay%2C+WV%2C+25514",
-        "Google_Maps_Coordinate": ""
+        "Google_Maps_Coordinate": "",
+        "Google_Maps_Route": ""
       }
     },
     {
@@ -2651,14 +2817,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.832941465338",
         "Longitude": "-82.155423543231",
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
+        "Route_Group": "Lexington Round Trip 3: KY/OH \u00b7 Whittington's (Mike Eblin) to Vanceburg",
         "Route_Order": "1",
+        "Round_Trip_Base": "Lexington, KY",
         "_color": "#16a34a",
         "Geocode_Match": "309 UPPER RIVER RD, GALLIPOLIS, OH, 45631",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=309+Upper+River+Rd%2C+Gallipolis%2C+OH%2C+45631",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.832941465338%2C-82.155423543231"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.832941465338%2C-82.155423543231",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.832941465338%2C-82.155423543231%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.6469488%2C-82.8605661%7C38.560965%2C-82.8079305%7C38.56949255328%2C-82.832644518509%7C38.419066%2C-83.145297%7C38.542704717141%2C-83.345220628916"
       }
     },
     {
@@ -2683,14 +2851,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.050013921372",
         "Longitude": "-84.517664633703",
-        "Route_Group": "Route 9: KY \u00b7 Lexington to Berea",
-        "Route_Order": "1",
-        "_color": "#b45309",
+        "Route_Group": "Lexington Round Trip 10: KY \u00b7 Frankfort to Marathon Food Mart CC3",
+        "Route_Order": "8",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0f766e",
         "Geocode_Match": "1150 VERSAILLES RD, LEXINGTON, KY, 40508",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1150+Versailles+Rd%2C+Lexington%2C+KY%2C+40508",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.050013921372%2C-84.517664633703"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.050013921372%2C-84.517664633703",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.187688429852%2C-84.810980108947%7C38.162024093287%2C-84.676410982831%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289%7C38.057889739685%2C-84.532293904374%7C38.049468115848%2C-84.527226966676%7C38.050013921372%2C-84.517664633703"
       }
     },
     {
@@ -2715,14 +2885,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.088564",
         "Longitude": "-83.1256626",
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
-        "Route_Order": "8",
-        "_color": "#0891b2",
+        "Route_Group": "Lexington Round Trip 8: KY/WV \u00b7 West Hamlin to MOREHEAD",
+        "Route_Order": "7",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#65a30d",
         "Geocode_Match": "KY 7;KY 32, Bell City, Sandy Hook, Elliott County, Kentucky, 41171, United States",
         "Geocode_Source": "OpenStreetMap Nominatim fallback",
         "Geocode_Quality": "primary",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=371+KY+7%2C+Sandy+Hook%2C+KY%2C+41171",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.088564%2C-83.1256626"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.088564%2C-83.1256626",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.271012196072%2C-82.200838089499%7C38.113858310239%2C-82.604726734455%7C38.230093064616%2C-82.439809594392%7C38.406100883449%2C-82.428171444247%7C38.35686663%2C-82.69673914%7C38.286390139164%2C-82.919059418731%7C38.088564%2C-83.1256626%7C38.182622042618%2C-83.431688139099"
       }
     },
     {
@@ -2747,14 +2919,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.068642353245",
         "Longitude": "-83.162032442735",
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
-        "Route_Order": "9",
-        "_color": "#0891b2",
+        "Route_Group": "Lexington Round Trip 9: KY \u00b7 T's Quick Stop to Winchester Road",
+        "Route_Order": "1",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#b45309",
         "Geocode_Match": "203 STATE HWY 7, SANDY HOOK, KY, 41171",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=203+Old+Rt+7+%28RT+1+Box+2112%29%2C+Sandy+Hook%2C+KY%2C+41171",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.068642353245%2C-83.162032442735"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.068642353245%2C-83.162032442735",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.068642353245%2C-83.162032442735%7C37.921975577639%2C-83.259926259428%7C37.568914134966%2C-84.318334423585%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C37.948611%2C-84.541944%7C37.996863197986%2C-84.548270113657%7C38.04117400934%2C-84.471186301457"
       }
     },
     {
@@ -2779,14 +2953,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.296635214434",
         "Longitude": "-83.180232185203",
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Route_Order": "4",
-        "_color": "#f97316",
+        "Route_Group": "Lexington Round Trip 6: KY/OH/WV \u00b7 Fraziers Bottom to Olive Hill Marathon",
+        "Route_Order": "8",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#0891b2",
         "Geocode_Match": "424 TOM T HALL BLVD, OLIVE HILL, KY, 41164",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=424+W+Tom+T+Hall+Blvd%2C+Olive+Hill%2C+KY%2C+41164",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.296635214434%2C-83.180232185203"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.296635214434%2C-83.180232185203",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.451529832917%2C-82.591327523655%7C38.439280286381%2C-82.609004376435%7C38.439909197444%2C-82.705132481059%7C38.3419039%2C-82.9437233%7C38.296635214434%2C-83.180232185203"
       }
     },
     {
@@ -2811,14 +2987,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.379018895712",
         "Longitude": "-82.702951075321",
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Route_Order": "10",
-        "_color": "#f97316",
+        "Route_Group": "Lexington Round Trip 7: KY/OH/WV \u00b7 31st Convenience Plus to Grayson",
+        "Route_Order": "5",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#be185d",
         "Geocode_Match": "12219 MIDLAND TRAIL RD, ASHLAND, KY, 41102",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=12219+Midland+Trail+Rd%2C+Cannonsburg%2C+KY%2C+41102",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.379018895712%2C-82.702951075321"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.379018895712%2C-82.702951075321",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.424869447626%2C-82.392956232883%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318%7C38.379018895712%2C-82.702951075321%7C38.370254641789%2C-82.765411068432%7C38.36138224%2C-82.77280927%7C38.326594329486%2C-82.947509174543"
       }
     },
     {
@@ -2843,14 +3021,16 @@
         "Notes": "No previous Phase I",
         "Latitude": "38.061167811605",
         "Longitude": "-84.51673272832",
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
-        "Route_Order": "9",
-        "_color": "#be185d",
+        "Route_Group": "Lexington Round Trip 11: KY \u00b7 Canewood to Palumbo Lumber Co.",
+        "Route_Order": "5",
+        "Round_Trip_Base": "Lexington, KY",
+        "_color": "#ea580c",
         "Geocode_Match": "1120 W MAIN ST, LEXINGTON, KY, 40508",
         "Geocode_Source": "US Census geocoder",
         "Geocode_Quality": "matched",
         "Google_Maps_Stop": "https://www.google.com/maps/search/?api=1&query=1120+W.+Main+St%2C+Lexington%2C+KY%2C+40508",
-        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.061167811605%2C-84.51673272832"
+        "Google_Maps_Coordinate": "https://www.google.com/maps/search/?api=1&query=38.061167811605%2C-84.51673272832",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.20878896386%2C-84.594553294954%7C38.275301338024%2C-84.55490272128%7C38.231091196337%2C-84.535236638363%7C38.214590499843%2C-84.54014981542%7C38.061167811605%2C-84.51673272832"
       }
     }
   ]

@@ -1,13 +1,17 @@
 {
   "type": "FeatureCollection",
-  "name": "Environmental Phase I Listing - Elizabeth Milk Run Routes",
-  "generated": "2026-07-14",
+  "name": "Environmental Phase I Listing - Lexington Round Trip Routes",
+  "generated": "2026-07-15",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            -84.5037,
+            38.0406
+          ],
           [
             -82.488051895609,
             39.248450625239
@@ -21,16 +25,57 @@
             39.031609936964
           ],
           [
+            -82.980519890875,
+            39.13034733819
+          ],
+          [
+            -82.993719639181,
+            39.052316984237
+          ],
+          [
+            -84.486268477911,
+            38.095554515104
+          ],
+          [
+            -84.457642913927,
+            38.075151859626
+          ],
+          [
+            -84.474923978332,
+            38.069720319089
+          ],
+          [
+            -84.5037,
+            38.0406
+          ]
+        ]
+      },
+      "properties": {
+        "Route_Group": "Lexington Round Trip 1: KY/OH \u00b7 McArthur to Russell Cave",
+        "Start_End": "Lexington, KY",
+        "Stop_Count": 8,
+        "Approx_Loop_Miles": 289.6,
+        "Suggested_Order": "Lexington \u2192 1. McArthur \u2192 2. McArthur \u2192 3. Jackson \u2192 4. Waverly \u2192 5. Piketon \u2192 6. Speaks Marathon SPE001 \u2192 7. North Broadway \u2192 8. Russell Cave \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=39.248450625239%2C-82.488051895609%7C39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C39.13034733819%2C-82.980519890875%7C39.052316984237%2C-82.993719639181%7C38.095554515104%2C-84.486268477911%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332",
+        "_color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.5037,
+            38.0406
+          ],
+          [
             -82.569178716707,
             38.90109987208
           ],
           [
-            -82.844277520279,
-            38.728742215953
-          ],
-          [
-            -82.859666512065,
-            38.728867208675
+            -82.944043199716,
+            38.776967637737
           ],
           [
             -82.9618411,
@@ -45,71 +90,30 @@
             38.759178801902
           ],
           [
-            -82.944043199716,
-            38.776967637737
+            -83.326361,
+            38.5915
+          ],
+          [
+            -83.732379403989,
+            38.421082757408
+          ],
+          [
+            -83.76038417191,
+            38.420753431938
+          ],
+          [
+            -84.5037,
+            38.0406
           ]
         ]
       },
       "properties": {
-        "Route_Group": "Route 1: KY/OH \u00b7 McArthur to Portsmouth",
-        "Stop_Count": 10,
-        "Suggested_Order": "1. McArthur \u2192 2. McArthur \u2192 3. Jackson \u2192 4. Oak Hill \u2192 5. Center \u2192 6. Wheelersburg \u2192 7. South Shore \u2192 8. Portsmouth \u2192 9. Portsmouth \u2192 10. Rosemount Rd",
-        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=39.248450625239%2C-82.488051895609&destination=38.776967637737%2C-82.944043199716&travelmode=driving&waypoints=39.24427872123%2C-82.479262629688%7C39.031609936964%2C-82.63715334632%7C38.90109987208%2C-82.569178716707%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301",
-        "_color": "#dc2626"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -82.980519890875,
-            39.13034733819
-          ],
-          [
-            -82.993719639181,
-            39.052316984237
-          ],
-          [
-            -82.8605661,
-            38.6469488
-          ],
-          [
-            -82.832644518509,
-            38.56949255328
-          ],
-          [
-            -82.8079305,
-            38.560965
-          ],
-          [
-            -82.679438390331,
-            38.537376820201
-          ],
-          [
-            -82.664892945284,
-            38.52508750124
-          ],
-          [
-            -82.658403902514,
-            38.512994300943
-          ],
-          [
-            -82.646289554426,
-            38.501694791007
-          ],
-          [
-            -82.671589257474,
-            38.48415356492
-          ]
-        ]
-      },
-      "properties": {
-        "Route_Group": "Route 2: KY/OH \u00b7 Waverly to Ashland",
-        "Stop_Count": 10,
-        "Suggested_Order": "1. Waverly \u2192 2. Piketon \u2192 3. Lloyd \u2192 4. Greenup \u2192 5. Greenup \u2192 6. Ironton \u2192 7. University Mart \u2192 8. Ironton \u2192 9. Coal Grove \u2192 10. Westwood",
-        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=39.13034733819%2C-82.980519890875&destination=38.48415356492%2C-82.671589257474&travelmode=driving&waypoints=39.052316984237%2C-82.993719639181%7C38.6469488%2C-82.8605661%7C38.56949255328%2C-82.832644518509%7C38.560965%2C-82.8079305%7C38.537376820201%2C-82.679438390331%7C38.52508750124%2C-82.664892945284%7C38.512994300943%2C-82.658403902514%7C38.501694791007%2C-82.646289554426",
+        "Route_Group": "Lexington Round Trip 2: KY/OH \u00b7 Oak Hill to Flemingsburg",
+        "Start_End": "Lexington, KY",
+        "Stop_Count": 8,
+        "Approx_Loop_Miles": 245.6,
+        "Suggested_Order": "Lexington \u2192 1. Oak Hill \u2192 2. Rosemount Rd \u2192 3. South Shore \u2192 4. Portsmouth \u2192 5. Portsmouth \u2192 6. Vanceburg \u2192 7. Flemingsburg \u2192 8. Flemingsburg \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.90109987208%2C-82.569178716707%7C38.776967637737%2C-82.944043199716%7C38.7210054%2C-82.9618411%7C38.740186694551%2C-82.964136887993%7C38.759178801902%2C-82.990515740301%7C38.5915%2C-83.326361%7C38.421082757408%2C-83.732379403989%7C38.420753431938%2C-83.76038417191",
         "_color": "#2563eb"
       }
     },
@@ -119,8 +123,179 @@
         "type": "LineString",
         "coordinates": [
           [
+            -84.5037,
+            38.0406
+          ],
+          [
             -82.155423543231,
             38.832941465338
+          ],
+          [
+            -82.844277520279,
+            38.728742215953
+          ],
+          [
+            -82.859666512065,
+            38.728867208675
+          ],
+          [
+            -82.8605661,
+            38.6469488
+          ],
+          [
+            -82.8079305,
+            38.560965
+          ],
+          [
+            -82.832644518509,
+            38.56949255328
+          ],
+          [
+            -83.145297,
+            38.419066
+          ],
+          [
+            -83.345220628916,
+            38.542704717141
+          ],
+          [
+            -84.5037,
+            38.0406
+          ]
+        ]
+      },
+      "properties": {
+        "Route_Group": "Lexington Round Trip 3: KY/OH \u00b7 Whittington's (Mike Eblin) to Vanceburg",
+        "Start_End": "Lexington, KY",
+        "Stop_Count": 8,
+        "Approx_Loop_Miles": 296.1,
+        "Suggested_Order": "Lexington \u2192 1. Whittington's (Mike Eblin) \u2192 2. Center \u2192 3. Wheelersburg \u2192 4. Lloyd \u2192 5. Greenup \u2192 6. Greenup \u2192 7. Olive Hill \u2192 8. Vanceburg \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.832941465338%2C-82.155423543231%7C38.728742215953%2C-82.844277520279%7C38.728867208675%2C-82.859666512065%7C38.6469488%2C-82.8605661%7C38.560965%2C-82.8079305%7C38.56949255328%2C-82.832644518509%7C38.419066%2C-83.145297%7C38.542704717141%2C-83.345220628916",
+        "_color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.5037,
+            38.0406
+          ],
+          [
+            -82.69182,
+            38.5043991
+          ],
+          [
+            -82.671589257474,
+            38.48415356492
+          ],
+          [
+            -82.646289554426,
+            38.501694791007
+          ],
+          [
+            -82.658403902514,
+            38.512994300943
+          ],
+          [
+            -82.664892945284,
+            38.52508750124
+          ],
+          [
+            -82.679438390331,
+            38.537376820201
+          ],
+          [
+            -82.610101520264,
+            38.552654005403
+          ],
+          [
+            -82.60261672826,
+            38.50266167383
+          ],
+          [
+            -84.5037,
+            38.0406
+          ]
+        ]
+      },
+      "properties": {
+        "Route_Group": "Lexington Round Trip 4: KY/OH \u00b7 Diederich to Holliday Quik Stop - KASH",
+        "Start_End": "Lexington, KY",
+        "Stop_Count": 8,
+        "Approx_Loop_Miles": 225.4,
+        "Suggested_Order": "Lexington \u2192 1. Diederich \u2192 2. Westwood \u2192 3. Coal Grove \u2192 4. Ironton \u2192 5. University Mart \u2192 6. Ironton \u2192 7. Stroble \u2192 8. Holliday Quik Stop - KASH \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.5043991%2C-82.69182%7C38.48415356492%2C-82.671589257474%7C38.501694791007%2C-82.646289554426%7C38.512994300943%2C-82.658403902514%7C38.52508750124%2C-82.664892945284%7C38.537376820201%2C-82.679438390331%7C38.552654005403%2C-82.610101520264%7C38.50266167383%2C-82.60261672826",
+        "_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.5037,
+            38.0406
+          ],
+          [
+            -82.695278,
+            38.455833
+          ],
+          [
+            -82.676784,
+            38.4572429
+          ],
+          [
+            -82.6730504,
+            38.4536426
+          ],
+          [
+            -82.666764931299,
+            38.457723898283
+          ],
+          [
+            -82.667076176391,
+            38.477310566334
+          ],
+          [
+            -82.640525070666,
+            38.460700725412
+          ],
+          [
+            -82.627889024055,
+            38.466307526567
+          ],
+          [
+            -82.621550048531,
+            38.469961530846
+          ],
+          [
+            -84.5037,
+            38.0406
+          ]
+        ]
+      },
+      "properties": {
+        "Route_Group": "Lexington Round Trip 5: KY \u00b7 Clarks Caf\u00e9 to Greenup Ave",
+        "Start_End": "Lexington, KY",
+        "Stop_Count": 8,
+        "Approx_Loop_Miles": 214.7,
+        "Suggested_Order": "Lexington \u2192 1. Clarks Caf\u00e9 \u2192 2. J & R Diesel \u2192 3. JF Clark \u2192 4. 13th Street \u2192 5. Ashland Office \u2192 6. 29th Street \u2192 7. 29th & Lexington \u2192 8. Greenup Ave \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.455833%2C-82.695278%7C38.4572429%2C-82.676784%7C38.4536426%2C-82.6730504%7C38.457723898283%2C-82.666764931299%7C38.477310566334%2C-82.667076176391%7C38.460700725412%2C-82.640525070666%7C38.466307526567%2C-82.627889024055%7C38.469961530846%2C-82.621550048531",
+        "_color": "#7c3aed"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.5037,
+            38.0406
           ],
           [
             -81.971688650872,
@@ -135,12 +310,53 @@
             38.457595760822
           ],
           [
-            -82.392956232883,
-            38.424869447626
+            -82.591327523655,
+            38.451529832917
           ],
           [
-            -82.428171444247,
-            38.406100883449
+            -82.609004376435,
+            38.439280286381
+          ],
+          [
+            -82.705132481059,
+            38.439909197444
+          ],
+          [
+            -82.9437233,
+            38.3419039
+          ],
+          [
+            -83.180232185203,
+            38.296635214434
+          ],
+          [
+            -84.5037,
+            38.0406
+          ]
+        ]
+      },
+      "properties": {
+        "Route_Group": "Lexington Round Trip 6: KY/OH/WV \u00b7 Fraziers Bottom to Olive Hill Marathon",
+        "Start_End": "Lexington, KY",
+        "Stop_Count": 8,
+        "Approx_Loop_Miles": 285.0,
+        "Suggested_Order": "Lexington \u2192 1. Fraziers Bottom \u2192 2. Huntington \u2192 3. Proctorville \u2192 4. South Point \u2192 5. Catlettsburg \u2192 6. Greenhills \u2192 7. Grayson \u2192 8. Olive Hill Marathon \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.451529832917%2C-82.591327523655%7C38.439280286381%2C-82.609004376435%7C38.439909197444%2C-82.705132481059%7C38.3419039%2C-82.9437233%7C38.296635214434%2C-83.180232185203",
+        "_color": "#0891b2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.5037,
+            38.0406
+          ],
+          [
+            -82.392956232883,
+            38.424869447626
           ],
           [
             -82.502927853442,
@@ -155,72 +371,35 @@
             38.3990149
           ],
           [
-            -82.609004376435,
-            38.439280286381
-          ]
-        ]
-      },
-      "properties": {
-        "Route_Group": "Route 3: KY/OH/WV \u00b7 Gallipolis to Catlettsburg",
-        "Stop_Count": 10,
-        "Suggested_Order": "1. Whittington's (Mike Eblin) \u2192 2. Fraziers Bottom \u2192 3. Huntington \u2192 4. Proctorville \u2192 5. 31st Convenience Plus \u2192 6. Hal Greer \u2192 7. Car Wash \u2192 8. Piedmont Pantry \u2192 9. Burnaugh \u2192 10. Catlettsburg",
-        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=38.832941465338%2C-82.155423543231&destination=38.439280286381%2C-82.609004376435&travelmode=driving&waypoints=38.556787021856%2C-81.971688650872%7C38.45545231598%2C-82.306736812846%7C38.457595760822%2C-82.338675656164%7C38.424869447626%2C-82.392956232883%7C38.406100883449%2C-82.428171444247%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318",
-        "_color": "#16a34a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -83.326361,
-            38.5915
-          ],
-          [
-            -83.345220628916,
-            38.542704717141
-          ],
-          [
-            -83.145297,
-            38.419066
-          ],
-          [
-            -83.180232185203,
-            38.296635214434
-          ],
-          [
-            -82.947509174543,
-            38.326594329486
-          ],
-          [
-            -82.9437233,
-            38.3419039
-          ],
-          [
-            -82.919059418731,
-            38.286390139164
-          ],
-          [
-            -82.77280927,
-            38.36138224
+            -82.702951075321,
+            38.379018895712
           ],
           [
             -82.765411068432,
             38.370254641789
           ],
           [
-            -82.702951075321,
-            38.379018895712
+            -82.77280927,
+            38.36138224
+          ],
+          [
+            -82.947509174543,
+            38.326594329486
+          ],
+          [
+            -84.5037,
+            38.0406
           ]
         ]
       },
       "properties": {
-        "Route_Group": "Route 4: KY \u00b7 Vanceburg to Cannonsburg",
-        "Stop_Count": 10,
-        "Suggested_Order": "1. Vanceburg \u2192 2. Vanceburg \u2192 3. Olive Hill \u2192 4. Olive Hill Marathon \u2192 5. Grayson \u2192 6. Grayson \u2192 7. Param Oil \u2192 8. Rush \u2192 9. Exit 181 \u2192 10. Boyd Co School Bus Garage",
-        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=38.5915%2C-83.326361&destination=38.379018895712%2C-82.702951075321&travelmode=driving&waypoints=38.542704717141%2C-83.345220628916%7C38.419066%2C-83.145297%7C38.296635214434%2C-83.180232185203%7C38.326594329486%2C-82.947509174543%7C38.3419039%2C-82.9437233%7C38.286390139164%2C-82.919059418731%7C38.36138224%2C-82.77280927%7C38.370254641789%2C-82.765411068432",
-        "_color": "#f97316"
+        "Route_Group": "Lexington Round Trip 7: KY/OH/WV \u00b7 31st Convenience Plus to Grayson",
+        "Start_End": "Lexington, KY",
+        "Stop_Count": 8,
+        "Approx_Loop_Miles": 236.1,
+        "Suggested_Order": "Lexington \u2192 1. 31st Convenience Plus \u2192 2. Car Wash \u2192 3. Piedmont Pantry \u2192 4. Burnaugh \u2192 5. Boyd Co School Bus Garage \u2192 6. Exit 181 \u2192 7. Rush \u2192 8. Grayson \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.424869447626%2C-82.392956232883%7C38.418298874567%2C-82.502927853442%7C38.398013306772%2C-82.516453297453%7C38.3990149%2C-82.6009318%7C38.379018895712%2C-82.702951075321%7C38.370254641789%2C-82.765411068432%7C38.36138224%2C-82.77280927%7C38.326594329486%2C-82.947509174543",
+        "_color": "#be185d"
       }
     },
     {
@@ -229,91 +408,65 @@
         "type": "LineString",
         "coordinates": [
           [
-            -82.610101520264,
-            38.552654005403
-          ],
-          [
-            -82.60261672826,
-            38.50266167383
-          ],
-          [
-            -82.621550048531,
-            38.469961530846
-          ],
-          [
-            -82.627889024055,
-            38.466307526567
-          ],
-          [
-            -82.640525070666,
-            38.460700725412
-          ],
-          [
-            -82.666764931299,
-            38.457723898283
-          ],
-          [
-            -82.6730504,
-            38.4536426
-          ],
-          [
-            -82.676784,
-            38.4572429
-          ],
-          [
-            -82.695278,
-            38.455833
-          ],
-          [
-            -82.705132481059,
-            38.439909197444
-          ]
-        ]
-      },
-      "properties": {
-        "Route_Group": "Route 5: KY/OH \u00b7 Ironton to Ashland",
-        "Stop_Count": 10,
-        "Suggested_Order": "1. Stroble \u2192 2. Holliday Quik Stop - KASH \u2192 3. Greenup Ave \u2192 4. 29th & Lexington \u2192 5. 29th Street \u2192 6. 13th Street \u2192 7. JF Clark \u2192 8. J & R Diesel \u2192 9. Clarks Caf\u00e9 \u2192 10. Greenhills",
-        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=38.552654005403%2C-82.610101520264&destination=38.439909197444%2C-82.705132481059&travelmode=driving&waypoints=38.50266167383%2C-82.60261672826%7C38.469961530846%2C-82.621550048531%7C38.466307526567%2C-82.627889024055%7C38.460700725412%2C-82.640525070666%7C38.457723898283%2C-82.666764931299%7C38.4536426%2C-82.6730504%7C38.4572429%2C-82.676784%7C38.455833%2C-82.695278",
-        "_color": "#7c3aed"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -82.69182,
-            38.5043991
-          ],
-          [
-            -82.667076176391,
-            38.477310566334
-          ],
-          [
-            -82.591327523655,
-            38.451529832917
-          ],
-          [
-            -82.69673914,
-            38.35686663
-          ],
-          [
-            -82.439809594392,
-            38.230093064616
-          ],
-          [
-            -82.604726734455,
-            38.113858310239
+            -84.5037,
+            38.0406
           ],
           [
             -82.200838089499,
             38.271012196072
           ],
           [
+            -82.604726734455,
+            38.113858310239
+          ],
+          [
+            -82.439809594392,
+            38.230093064616
+          ],
+          [
+            -82.428171444247,
+            38.406100883449
+          ],
+          [
+            -82.69673914,
+            38.35686663
+          ],
+          [
+            -82.919059418731,
+            38.286390139164
+          ],
+          [
             -83.1256626,
             38.088564
+          ],
+          [
+            -83.431688139099,
+            38.182622042618
+          ],
+          [
+            -84.5037,
+            38.0406
+          ]
+        ]
+      },
+      "properties": {
+        "Route_Group": "Lexington Round Trip 8: KY/WV \u00b7 West Hamlin to MOREHEAD",
+        "Start_End": "Lexington, KY",
+        "Stop_Count": 8,
+        "Approx_Loop_Miles": 297.4,
+        "Suggested_Order": "Lexington \u2192 1. West Hamlin \u2192 2. Louisa \u2192 3. Wayne \u2192 4. Hal Greer \u2192 5. Route 3 \u2192 6. Param Oil \u2192 7. Robo's Country Cabin \u2192 8. MOREHEAD \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.271012196072%2C-82.200838089499%7C38.113858310239%2C-82.604726734455%7C38.230093064616%2C-82.439809594392%7C38.406100883449%2C-82.428171444247%7C38.35686663%2C-82.69673914%7C38.286390139164%2C-82.919059418731%7C38.088564%2C-83.1256626%7C38.182622042618%2C-83.431688139099",
+        "_color": "#65a30d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.5037,
+            38.0406
           ],
           [
             -83.162032442735,
@@ -322,33 +475,10 @@
           [
             -83.259926259428,
             37.921975577639
-          ]
-        ]
-      },
-      "properties": {
-        "Route_Group": "Route 6: KY/OH/WV \u00b7 Russell to West Liberty",
-        "Stop_Count": 10,
-        "Suggested_Order": "1. Diederich \u2192 2. Ashland Office \u2192 3. South Point \u2192 4. Route 3 \u2192 5. Wayne \u2192 6. Louisa \u2192 7. West Hamlin \u2192 8. Robo's Country Cabin \u2192 9. T's Quick Stop \u2192 10. West Liberty",
-        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=38.5043991%2C-82.69182&destination=37.921975577639%2C-83.259926259428&travelmode=driving&waypoints=38.477310566334%2C-82.667076176391%7C38.451529832917%2C-82.591327523655%7C38.35686663%2C-82.69673914%7C38.230093064616%2C-82.439809594392%7C38.113858310239%2C-82.604726734455%7C38.271012196072%2C-82.200838089499%7C38.088564%2C-83.1256626%7C38.068642353245%2C-83.162032442735",
-        "_color": "#0891b2"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -83.732379403989,
-            38.421082757408
           ],
           [
-            -83.76038417191,
-            38.420753431938
-          ],
-          [
-            -83.431688139099,
-            38.182622042618
+            -84.318334423585,
+            37.568914134966
           ],
           [
             -84.17458533382,
@@ -359,33 +489,31 @@
             37.997286549092
           ],
           [
-            -84.457642913927,
-            38.075151859626
+            -84.541944,
+            37.948611
           ],
           [
-            -84.474923978332,
-            38.069720319089
-          ],
-          [
-            -84.486268477911,
-            38.095554515104
-          ],
-          [
-            -84.51673272832,
-            38.061167811605
+            -84.548270113657,
+            37.996863197986
           ],
           [
             -84.471186301457,
             38.04117400934
+          ],
+          [
+            -84.5037,
+            38.0406
           ]
         ]
       },
       "properties": {
-        "Route_Group": "Route 7: KY \u00b7 Flemingsburg to Lexington",
-        "Stop_Count": 10,
-        "Suggested_Order": "1. Flemingsburg \u2192 2. Flemingsburg \u2192 3. MOREHEAD \u2192 4. Winchester \u2192 5. Winchester \u2192 6. North Broadway \u2192 7. Russell Cave \u2192 8. Speaks Marathon SPE001 \u2192 9. Palumbo Lumber Co. \u2192 10. Winchester Road",
-        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=38.421082757408%2C-83.732379403989&destination=38.04117400934%2C-84.471186301457&travelmode=driving&waypoints=38.420753431938%2C-83.76038417191%7C38.182622042618%2C-83.431688139099%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C38.075151859626%2C-84.457642913927%7C38.069720319089%2C-84.474923978332%7C38.095554515104%2C-84.486268477911%7C38.061167811605%2C-84.51673272832",
-        "_color": "#be185d"
+        "Route_Group": "Lexington Round Trip 9: KY \u00b7 T's Quick Stop to Winchester Road",
+        "Start_End": "Lexington, KY",
+        "Stop_Count": 8,
+        "Approx_Loop_Miles": 208.5,
+        "Suggested_Order": "Lexington \u2192 1. T's Quick Stop \u2192 2. West Liberty \u2192 3. Berea \u2192 4. Winchester \u2192 5. Winchester \u2192 6. Bethel \u2192 7. Clays Mill Rd \u2192 8. Winchester Road \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.068642353245%2C-83.162032442735%7C37.921975577639%2C-83.259926259428%7C37.568914134966%2C-84.318334423585%7C37.997919980046%2C-84.17458533382%7C37.997286549092%2C-84.174907557413%7C37.948611%2C-84.541944%7C37.996863197986%2C-84.548270113657%7C38.04117400934%2C-84.471186301457",
+        "_color": "#b45309"
       }
     },
     {
@@ -394,28 +522,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -84.55490272128,
-            38.275301338024
-          ],
-          [
-            -84.535236638363,
-            38.231091196337
-          ],
-          [
-            -84.54014981542,
-            38.214590499843
-          ],
-          [
-            -84.594553294954,
-            38.20878896386
-          ],
-          [
-            -84.676410982831,
-            38.162024093287
+            -84.5037,
+            38.0406
           ],
           [
             -84.810980108947,
             38.187688429852
+          ],
+          [
+            -84.676410982831,
+            38.162024093287
           ],
           [
             -84.663965360438,
@@ -432,15 +548,29 @@
           [
             -84.532293904374,
             38.057889739685
+          ],
+          [
+            -84.527226966676,
+            38.049468115848
+          ],
+          [
+            -84.517664633703,
+            38.050013921372
+          ],
+          [
+            -84.5037,
+            38.0406
           ]
         ]
       },
       "properties": {
-        "Route_Group": "Route 8: KY \u00b7 Georgetown to Lexington",
-        "Stop_Count": 10,
-        "Suggested_Order": "1. Georgetown \u2192 2. Connector Rd \u2192 3. Georgetown \u2192 4. Canewood \u2192 5. Midway \u2192 6. Frankfort \u2192 7. Versailles \u2192 8. Lucille Dr. \u2192 9. Sandersville Rd. \u2192 10. Lexington",
-        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=38.275301338024%2C-84.55490272128&destination=38.057889739685%2C-84.532293904374&travelmode=driving&waypoints=38.231091196337%2C-84.535236638363%7C38.214590499843%2C-84.54014981542%7C38.20878896386%2C-84.594553294954%7C38.162024093287%2C-84.676410982831%7C38.187688429852%2C-84.810980108947%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289",
-        "_color": "#65a30d"
+        "Route_Group": "Lexington Round Trip 10: KY \u00b7 Frankfort to Marathon Food Mart CC3",
+        "Start_End": "Lexington, KY",
+        "Stop_Count": 8,
+        "Approx_Loop_Miles": 47.2,
+        "Suggested_Order": "Lexington \u2192 1. Frankfort \u2192 2. Midway \u2192 3. Versailles \u2192 4. Lucille Dr. \u2192 5. Sandersville Rd. \u2192 6. Lexington \u2192 7. Versailles Rd \u2192 8. Marathon Food Mart CC3 \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.187688429852%2C-84.810980108947%7C38.162024093287%2C-84.676410982831%7C38.04472816808%2C-84.663965360438%7C38.088131399617%2C-84.548607642383%7C38.089253912797%2C-84.536736457289%7C38.057889739685%2C-84.532293904374%7C38.049468115848%2C-84.527226966676%7C38.050013921372%2C-84.517664633703",
+        "_color": "#0f766e"
       }
     },
     {
@@ -449,33 +579,43 @@
         "type": "LineString",
         "coordinates": [
           [
-            -84.517664633703,
-            38.050013921372
+            -84.5037,
+            38.0406
           ],
           [
-            -84.527226966676,
-            38.049468115848
+            -84.594553294954,
+            38.20878896386
           ],
           [
-            -84.548270113657,
-            37.996863197986
+            -84.55490272128,
+            38.275301338024
           ],
           [
-            -84.541944,
-            37.948611
+            -84.535236638363,
+            38.231091196337
           ],
           [
-            -84.318334423585,
-            37.568914134966
+            -84.54014981542,
+            38.214590499843
+          ],
+          [
+            -84.51673272832,
+            38.061167811605
+          ],
+          [
+            -84.5037,
+            38.0406
           ]
         ]
       },
       "properties": {
-        "Route_Group": "Route 9: KY \u00b7 Lexington to Berea",
+        "Route_Group": "Lexington Round Trip 11: KY \u00b7 Canewood to Palumbo Lumber Co.",
+        "Start_End": "Lexington, KY",
         "Stop_Count": 5,
-        "Suggested_Order": "1. Marathon Food Mart CC3 \u2192 2. Versailles Rd \u2192 3. Clays Mill Rd \u2192 4. Bethel \u2192 5. Berea",
-        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=38.050013921372%2C-84.517664633703&destination=37.568914134966%2C-84.318334423585&travelmode=driving&waypoints=38.049468115848%2C-84.527226966676%7C37.996863197986%2C-84.548270113657%7C37.948611%2C-84.541944",
-        "_color": "#b45309"
+        "Approx_Loop_Miles": 34.4,
+        "Suggested_Order": "Lexington \u2192 1. Canewood \u2192 2. Georgetown \u2192 3. Connector Rd \u2192 4. Georgetown \u2192 5. Palumbo Lumber Co. \u2192 Lexington",
+        "Google_Maps_Route": "https://www.google.com/maps/dir/?api=1&origin=Lexington%2C+KY&destination=Lexington%2C+KY&travelmode=driving&waypoints=38.20878896386%2C-84.594553294954%7C38.275301338024%2C-84.55490272128%7C38.231091196337%2C-84.535236638363%7C38.214590499843%2C-84.54014981542%7C38.061167811605%2C-84.51673272832",
+        "_color": "#ea580c"
       }
     }
   ]
