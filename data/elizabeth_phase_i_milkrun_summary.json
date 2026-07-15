@@ -1,8 +1,10 @@
 {
   "total_rows": 90,
   "mapped": 90,
+  "active_routed_stops": 88,
+  "not_included_count": 2,
   "missing": 0,
-  "start_end": "Lexington, KY",
+  "start_end": "Variable by route",
   "routing_method": "Road-distance optimized using OSRM road network",
   "max_site_stops_per_google_route": 9,
   "routes": [
@@ -10,138 +12,227 @@
       "route": "Carley Road Run 1: 630 - Speaks Marathon SPE001 to 78 - Bethel",
       "route_number": 1,
       "owner": "Carley",
+      "start": "Lexington, KY",
+      "end": "Lexington, KY",
       "count": 10,
       "drive_miles": 80.3,
       "drive_minutes": 120.0,
       "first": "630 - Speaks Marathon SPE001",
       "last": "78 - Bethel",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=38.095554515104,-84.486268477911|38.231091196337,-84.535236638363|38.275301338024,-84.554902721280|38.214590499843,-84.540149815420|38.208788963860,-84.594553294954|38.162024093287,-84.676410982831|38.187688429852,-84.810980108947|38.044728168080,-84.663965360438|37.996863197986,-84.548270113657|37.948611000000,-84.541944000000",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.095554515104,-84.486268477911|38.231091196337,-84.535236638363|38.275301338024,-84.554902721280|38.214590499843,-84.540149815420|38.208788963860,-84.594553294954|38.162024093287,-84.676410982831|38.187688429852,-84.810980108947|38.044728168080,-84.663965360438|37.996863197986,-84.548270113657|37.948611000000,-84.541944000000",
       "google_maps_parts": [
         {
           "part": "1",
           "label": "Part 1",
           "count": 5,
-          "from": "Lexington",
+          "from": "Lexington, KY",
           "to": "85 - Canewood",
-          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=38.208788963860,-84.594553294954&travelmode=driving&waypoints=38.095554515104,-84.486268477911|38.231091196337,-84.535236638363|38.275301338024,-84.554902721280|38.214590499843,-84.540149815420"
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.208788963860,-84.594553294954&travelmode=driving&waypoints=38.095554515104,-84.486268477911|38.231091196337,-84.535236638363|38.275301338024,-84.554902721280|38.214590499843,-84.540149815420"
         },
         {
           "part": "2",
           "label": "Part 2",
           "count": 5,
           "from": "85 - Canewood",
-          "to": "Lexington",
-          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.208788963860,-84.594553294954&destination=Lexington,+KY&travelmode=driving&waypoints=38.162024093287,-84.676410982831|38.187688429852,-84.810980108947|38.044728168080,-84.663965360438|37.996863197986,-84.548270113657|37.948611000000,-84.541944000000"
+          "to": "Lexington, KY",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.208788963860,-84.594553294954&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.162024093287,-84.676410982831|38.187688429852,-84.810980108947|38.044728168080,-84.663965360438|37.996863197986,-84.548270113657|37.948611000000,-84.541944000000"
         }
       ],
       "phone_note": "Google Maps trims long routes, so this run is split into smaller phone links."
     },
     {
-      "route": "Elizabeth Road Run 2: 39 - Waverly to BP39 - Flemingsburg",
+      "route": "Elizabeth Road Run 2: BP39 - Flemingsburg to BP10 - MOREHEAD",
       "route_number": 2,
       "owner": "Elizabeth",
+      "start": "Lexington, KY",
+      "end": "Lexington, KY",
       "count": 7,
-      "drive_miles": 282.6,
-      "drive_minutes": 410.0,
-      "first": "39 - Waverly",
-      "last": "BP39 - Flemingsburg",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=39.130347338190,-82.980519890875|39.052316984237,-82.993719639181|38.740186694551,-82.964136887993|38.542704717141,-83.345220628916|38.591500000000,-83.326361000000|38.421082757408,-83.732379403989|38.420753431938,-83.760384171910"
+      "drive_miles": 205.9,
+      "drive_minutes": 312.0,
+      "first": "BP39 - Flemingsburg",
+      "last": "BP10 - MOREHEAD",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.420753431938,-83.760384171910|38.421082757408,-83.732379403989|38.591500000000,-83.326361000000|38.542704717141,-83.345220628916|38.419066000000,-83.145297000000|38.296635214434,-83.180232185203|38.182622042618,-83.431688139099"
     },
     {
-      "route": "Elizabeth Road Run 3: 10 - Jackson to 09 - West Hamlin",
+      "route": "Elizabeth Road Run 3: BP66 - Grayson to 01 - Westwood",
       "route_number": 3,
       "owner": "Elizabeth",
-      "count": 8,
-      "drive_miles": 437.4,
-      "drive_minutes": 568.0,
-      "first": "10 - Jackson",
-      "last": "09 - West Hamlin",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=39.031609936964,-82.637153346320|39.248450625239,-82.488051895609|39.244278721230,-82.479262629688|38.901099872080,-82.569178716707|38.885481000000,-82.376628000000|38.832941465338,-82.155423543231|38.556787021856,-81.971688650872|38.271012196072,-82.200838089499"
-    },
-    {
-      "route": "Elizabeth Road Run 4: 34 - Portsmouth to 05 - Greenup",
-      "route_number": 4,
-      "owner": "Elizabeth",
-      "count": 8,
-      "drive_miles": 271.0,
-      "drive_minutes": 351.0,
-      "first": "34 - Portsmouth",
-      "last": "05 - Greenup",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=38.759178801902,-82.990515740301|38.721005400000,-82.961841100000|38.776967637737,-82.944043199716|38.728742215953,-82.844277520279|38.728867208675,-82.859666512065|38.646948800000,-82.860566100000|38.569492553280,-82.832644518509|38.560965000000,-82.807930500000"
-    },
-    {
-      "route": "Elizabeth Road Run 5: J & R Diesel to 32 - Burnaugh",
-      "route_number": 5,
-      "owner": "Elizabeth",
-      "count": 8,
-      "drive_miles": 244.3,
-      "drive_minutes": 288.0,
-      "first": "J & R Diesel",
-      "last": "32 - Burnaugh",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=38.457242900000,-82.676784000000|38.484153564920,-82.671589257474|38.477310566334,-82.667076176391|38.460700725412,-82.640525070666|38.466307526567,-82.627889024055|38.469961530846,-82.621550048531|38.439280286381,-82.609004376435|38.399014900000,-82.600931800000"
-    },
-    {
-      "route": "Elizabeth Road Run 6: 20 - South Point to 08 - Diederich",
-      "route_number": 6,
-      "owner": "Elizabeth",
-      "count": 8,
-      "drive_miles": 267.4,
-      "drive_minutes": 337.0,
-      "first": "20 - South Point",
-      "last": "08 - Diederich",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=38.451529832917,-82.591327523655|38.502661673830,-82.602616728260|38.501694791007,-82.646289554426|38.512994300943,-82.658403902514|38.525087501240,-82.664892945284|38.552654005403,-82.610101520264|38.537376820201,-82.679438390331|38.504399100000,-82.691820000000"
-    },
-    {
-      "route": "Elizabeth Road Run 7: 51 - Piedmont Pantry to 26 - Chesapeake",
-      "route_number": 7,
-      "owner": "Elizabeth",
-      "count": 8,
-      "drive_miles": 286.8,
-      "drive_minutes": 357.0,
-      "first": "51 - Piedmont Pantry",
-      "last": "26 - Chesapeake",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=38.398013306772,-82.516453297453|38.406100883449,-82.428171444247|38.424869447626,-82.392956232883|38.455452315980,-82.306736812846|38.457595760822,-82.338675656164|38.438401000000,-82.386657000000|38.418298874567,-82.502927853442|38.419200000000,-82.503296000000"
-    },
-    {
-      "route": "Elizabeth Road Run 8: PAR001 - Param Oil to 56 - Olive Hill",
-      "route_number": 8,
-      "owner": "Elizabeth",
-      "count": 8,
-      "drive_miles": 244.6,
-      "drive_minutes": 303.0,
-      "first": "PAR001 - Param Oil",
-      "last": "56 - Olive Hill",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=38.286390139164,-82.919059418731|38.326594329486,-82.947509174543|38.341903900000,-82.943723300000|38.361382240000,-82.772809270000|38.356866630000,-82.696739140000|38.379018895712,-82.702951075321|38.370254641789,-82.765411068432|38.419066000000,-83.145297000000"
-    },
-    {
-      "route": "Elizabeth Road Run 9: BP49 - Louisa to 49 - Greenhills",
-      "route_number": 9,
-      "owner": "Elizabeth",
-      "count": 8,
-      "drive_miles": 310.9,
-      "drive_minutes": 378.0,
-      "first": "BP49 - Louisa",
-      "last": "49 - Greenhills",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=38.113858310239,-82.604726734455|38.104999000000,-82.571261000000|38.230093064616,-82.439809594392|38.322177000000,-82.445655000000|38.457723898283,-82.666764931299|38.453642600000,-82.673050400000|38.455833000000,-82.695278000000|38.439909197444,-82.705132481059"
-    },
-    {
-      "route": "Carley Road Run 10: 57 - Winchester Road to CC3 - Marathon Food Mart CC3",
-      "route_number": 10,
-      "owner": "Carley",
-      "count": 13,
-      "drive_miles": 242.9,
-      "drive_minutes": 300.0,
-      "first": "57 - Winchester Road",
-      "last": "CC3 - Marathon Food Mart CC3",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=38.041174009340,-84.471186301457|37.568914134966,-84.318334423585|37.997286549092,-84.174907557413|37.997919980046,-84.174585333820|37.921975577639,-83.259926259428|38.075151859626,-84.457642913927|38.069720319089,-84.474923978332|38.089253912797,-84.536736457289|38.088131399617,-84.548607642383|38.061167811605,-84.516732728320|38.057889739685,-84.532293904374|38.049468115848,-84.527226966676|38.050013921372,-84.517664633703",
+      "start": "Lexington, KY",
+      "end": "Ashland / Westwood, KY",
+      "count": 20,
+      "drive_miles": 176.5,
+      "drive_minutes": 239.0,
+      "first": "BP66 - Grayson",
+      "last": "01 - Westwood",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.484153564920,-82.671589257474&travelmode=driving&waypoints=38.341903900000,-82.943723300000|38.326594329486,-82.947509174543|38.286390139164,-82.919059418731|38.361382240000,-82.772809270000|38.370254641789,-82.765411068432|38.379018895712,-82.702951075321|38.356866630000,-82.696739140000|38.399014900000,-82.600931800000|38.439280286381,-82.609004376435|38.469961530846,-82.621550048531|38.460700725412,-82.640525070666|38.457723898283,-82.666764931299|38.453642600000,-82.673050400000|38.455833000000,-82.695278000000|38.439909197444,-82.705132481059|38.457242900000,-82.676784000000|38.477310566334,-82.667076176391|38.560965000000,-82.807930500000|38.569492553280,-82.832644518509|38.484153564920,-82.671589257474",
       "google_maps_parts": [
         {
           "part": "1",
           "label": "Part 1",
           "count": 5,
-          "from": "Lexington",
+          "from": "Lexington, KY",
+          "to": "58 - Exit 181",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.370254641789,-82.765411068432&travelmode=driving&waypoints=38.341903900000,-82.943723300000|38.326594329486,-82.947509174543|38.286390139164,-82.919059418731|38.361382240000,-82.772809270000"
+        },
+        {
+          "part": "2",
+          "label": "Part 2",
+          "count": 5,
+          "from": "58 - Exit 181",
+          "to": "43 - Greenup Ave",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.370254641789,-82.765411068432&destination=38.469961530846,-82.621550048531&travelmode=driving&waypoints=38.379018895712,-82.702951075321|38.356866630000,-82.696739140000|38.399014900000,-82.600931800000|38.439280286381,-82.609004376435"
+        },
+        {
+          "part": "3",
+          "label": "Part 3",
+          "count": 5,
+          "from": "43 - Greenup Ave",
+          "to": "49 - Greenhills",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.469961530846,-82.621550048531&destination=38.439909197444,-82.705132481059&travelmode=driving&waypoints=38.460700725412,-82.640525070666|38.457723898283,-82.666764931299|38.453642600000,-82.673050400000|38.455833000000,-82.695278000000"
+        },
+        {
+          "part": "4",
+          "label": "Part 4",
+          "count": 5,
+          "from": "49 - Greenhills",
+          "to": "Ashland / Westwood, KY",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.439909197444,-82.705132481059&destination=38.484153564920,-82.671589257474&travelmode=driving&waypoints=38.457242900000,-82.676784000000|38.477310566334,-82.667076176391|38.560965000000,-82.807930500000|38.569492553280,-82.832644518509|38.484153564920,-82.671589257474"
+        }
+      ],
+      "phone_note": "Google Maps trims long routes, so this run is split into smaller phone links."
+    },
+    {
+      "route": "Elizabeth Road Run 4: 37 - Ironton to South Point Car Wash - Car Wash",
+      "route_number": 4,
+      "owner": "Elizabeth",
+      "start": "Ashland / Westwood, KY",
+      "end": "Lexington, KY",
+      "count": 10,
+      "drive_miles": 164.9,
+      "drive_minutes": 218.0,
+      "first": "37 - Ironton",
+      "last": "South Point Car Wash - Car Wash",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.484153564920,-82.671589257474&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.537376820201,-82.679438390331|38.504399100000,-82.691820000000|38.552654005403,-82.610101520264|38.525087501240,-82.664892945284|38.512994300943,-82.658403902514|38.501694791007,-82.646289554426|38.502661673830,-82.602616728260|38.451529832917,-82.591327523655|38.419200000000,-82.503296000000|38.418298874567,-82.502927853442",
+      "google_maps_parts": [
+        {
+          "part": "1",
+          "label": "Part 1",
+          "count": 5,
+          "from": "Ashland / Westwood, KY",
+          "to": "BP27 - Ironton",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.484153564920,-82.671589257474&destination=38.512994300943,-82.658403902514&travelmode=driving&waypoints=38.537376820201,-82.679438390331|38.504399100000,-82.691820000000|38.552654005403,-82.610101520264|38.525087501240,-82.664892945284"
+        },
+        {
+          "part": "2",
+          "label": "Part 2",
+          "count": 5,
+          "from": "BP27 - Ironton",
+          "to": "Lexington, KY",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.512994300943,-82.658403902514&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.501694791007,-82.646289554426|38.502661673830,-82.602616728260|38.451529832917,-82.591327523655|38.419200000000,-82.503296000000|38.418298874567,-82.502927853442"
+        }
+      ],
+      "phone_note": "Google Maps trims long routes, so this run is split into smaller phone links."
+    },
+    {
+      "route": "Elizabeth Road Run 5: 34 - Portsmouth to JC128 - Whittington's (Mike Eblin)",
+      "route_number": 5,
+      "owner": "Elizabeth",
+      "start": "Lexington, KY",
+      "end": "Gallipolis, OH",
+      "count": 14,
+      "drive_miles": 283.8,
+      "drive_minutes": 413.0,
+      "first": "34 - Portsmouth",
+      "last": "JC128 - Whittington's (Mike Eblin)",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.809800000000,-82.202400000000&travelmode=driving&waypoints=38.759178801902,-82.990515740301|38.740186694551,-82.964136887993|38.721005400000,-82.961841100000|38.646948800000,-82.860566100000|38.728867208675,-82.859666512065|38.776967637737,-82.944043199716|39.052316984237,-82.993719639181|39.130347338190,-82.980519890875|39.248450625239,-82.488051895609|39.244278721230,-82.479262629688|39.031609936964,-82.637153346320|38.901099872080,-82.569178716707|38.885481000000,-82.376628000000|38.832941465338,-82.155423543231",
+      "google_maps_parts": [
+        {
+          "part": "1",
+          "label": "Part 1",
+          "count": 5,
+          "from": "Lexington, KY",
+          "to": "33 - Wheelersburg",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.728867208675,-82.859666512065&travelmode=driving&waypoints=38.759178801902,-82.990515740301|38.740186694551,-82.964136887993|38.721005400000,-82.961841100000|38.646948800000,-82.860566100000"
+        },
+        {
+          "part": "2",
+          "label": "Part 2",
+          "count": 5,
+          "from": "33 - Wheelersburg",
+          "to": "19 - McArthur",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.728867208675,-82.859666512065&destination=39.244278721230,-82.479262629688&travelmode=driving&waypoints=38.776967637737,-82.944043199716|39.052316984237,-82.993719639181|39.130347338190,-82.980519890875|39.248450625239,-82.488051895609"
+        },
+        {
+          "part": "3",
+          "label": "Part 3",
+          "count": 4,
+          "from": "19 - McArthur",
+          "to": "Gallipolis, OH",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=39.244278721230,-82.479262629688&destination=38.809800000000,-82.202400000000&travelmode=driving&waypoints=39.031609936964,-82.637153346320|38.901099872080,-82.569178716707|38.885481000000,-82.376628000000|38.832941465338,-82.155423543231"
+        }
+      ],
+      "phone_note": "Google Maps trims long routes, so this run is split into smaller phone links."
+    },
+    {
+      "route": "Elizabeth Road Run 6: 13 - Fraziers Bottom to JC102 - T's Quick Stop",
+      "route_number": 6,
+      "owner": "Elizabeth",
+      "start": "Gallipolis, OH",
+      "end": "Lexington, KY",
+      "count": 14,
+      "drive_miles": 292.1,
+      "drive_minutes": 428.0,
+      "first": "13 - Fraziers Bottom",
+      "last": "JC102 - T's Quick Stop",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.809800000000,-82.202400000000&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.556787021856,-81.971688650872|38.271012196072,-82.200838089499|38.455452315980,-82.306736812846|38.424869447626,-82.392956232883|38.438401000000,-82.386657000000|38.457595760822,-82.338675656164|38.406100883449,-82.428171444247|38.398013306772,-82.516453297453|38.322177000000,-82.445655000000|38.230093064616,-82.439809594392|38.104999000000,-82.571261000000|38.113858310239,-82.604726734455|38.088564000000,-83.125662600000|38.068642353245,-83.162032442735",
+      "google_maps_parts": [
+        {
+          "part": "1",
+          "label": "Part 1",
+          "count": 5,
+          "from": "Gallipolis, OH",
+          "to": "25 - Proctorville",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.809800000000,-82.202400000000&destination=38.438401000000,-82.386657000000&travelmode=driving&waypoints=38.556787021856,-81.971688650872|38.271012196072,-82.200838089499|38.455452315980,-82.306736812846|38.424869447626,-82.392956232883"
+        },
+        {
+          "part": "2",
+          "label": "Part 2",
+          "count": 5,
+          "from": "25 - Proctorville",
+          "to": "06 - Wayne",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.438401000000,-82.386657000000&destination=38.230093064616,-82.439809594392&travelmode=driving&waypoints=38.457595760822,-82.338675656164|38.406100883449,-82.428171444247|38.398013306772,-82.516453297453|38.322177000000,-82.445655000000"
+        },
+        {
+          "part": "3",
+          "label": "Part 3",
+          "count": 4,
+          "from": "06 - Wayne",
+          "to": "Lexington, KY",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.230093064616,-82.439809594392&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.104999000000,-82.571261000000|38.113858310239,-82.604726734455|38.088564000000,-83.125662600000|38.068642353245,-83.162032442735"
+        }
+      ],
+      "phone_note": "Google Maps trims long routes, so this run is split into smaller phone links."
+    },
+    {
+      "route": "Carley Road Run 10: 57 - Winchester Road to CC3 - Marathon Food Mart CC3",
+      "route_number": 10,
+      "owner": "Carley",
+      "start": "Lexington, KY",
+      "end": "Lexington, KY",
+      "count": 13,
+      "drive_miles": 242.8,
+      "drive_minutes": 300.0,
+      "first": "57 - Winchester Road",
+      "last": "CC3 - Marathon Food Mart CC3",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.041174009340,-84.471186301457|37.568914134966,-84.318334423585|37.997286549092,-84.174907557413|37.997919980046,-84.174585333820|37.921975577639,-83.259926259428|38.075151859626,-84.457642913927|38.069720319089,-84.474923978332|38.088131399617,-84.548607642383|38.089253912797,-84.536736457289|38.061167811605,-84.516732728320|38.057889739685,-84.532293904374|38.049468115848,-84.527226966676|38.050013921372,-84.517664633703",
+      "google_maps_parts": [
+        {
+          "part": "1",
+          "label": "Part 1",
+          "count": 5,
+          "from": "Lexington, KY",
           "to": "28 - West Liberty",
-          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=37.921975577639,-83.259926259428&travelmode=driving&waypoints=38.041174009340,-84.471186301457|37.568914134966,-84.318334423585|37.997286549092,-84.174907557413|37.997919980046,-84.174585333820"
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=37.921975577639,-83.259926259428&travelmode=driving&waypoints=38.041174009340,-84.471186301457|37.568914134966,-84.318334423585|37.997286549092,-84.174907557413|37.997919980046,-84.174585333820"
         },
         {
           "part": "2",
@@ -149,31 +240,36 @@
           "count": 5,
           "from": "28 - West Liberty",
           "to": "BPI590145 - Palumbo Lumber Co.",
-          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=37.921975577639,-83.259926259428&destination=38.061167811605,-84.516732728320&travelmode=driving&waypoints=38.075151859626,-84.457642913927|38.069720319089,-84.474923978332|38.089253912797,-84.536736457289|38.088131399617,-84.548607642383"
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=37.921975577639,-83.259926259428&destination=38.061167811605,-84.516732728320&travelmode=driving&waypoints=38.075151859626,-84.457642913927|38.069720319089,-84.474923978332|38.088131399617,-84.548607642383|38.089253912797,-84.536736457289"
         },
         {
           "part": "3",
           "label": "Part 3",
           "count": 3,
           "from": "BPI590145 - Palumbo Lumber Co.",
-          "to": "Lexington",
-          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.061167811605,-84.516732728320&destination=Lexington,+KY&travelmode=driving&waypoints=38.057889739685,-84.532293904374|38.049468115848,-84.527226966676|38.050013921372,-84.517664633703"
+          "to": "Lexington, KY",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.061167811605,-84.516732728320&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.057889739685,-84.532293904374|38.049468115848,-84.527226966676|38.050013921372,-84.517664633703"
         }
       ],
       "phone_note": "Google Maps trims long routes, so this run is split into smaller phone links."
-    },
-    {
-      "route": "Elizabeth Road Run 11: BP10 - MOREHEAD to JC102 - T's Quick Stop",
-      "route_number": 11,
-      "owner": "Elizabeth",
-      "count": 4,
-      "drive_miles": 198.0,
-      "drive_minutes": 271.0,
-      "first": "BP10 - MOREHEAD",
-      "last": "JC102 - T's Quick Stop",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=Lexington,+KY&destination=Lexington,+KY&travelmode=driving&waypoints=38.182622042618,-83.431688139099|38.296635214434,-83.180232185203|38.088564000000,-83.125662600000|38.068642353245,-83.162032442735"
     }
   ],
-  "manual_assignment": "Carley assigned Road Run 1, Road Run 10, North Broadway, Berea, Winchester, and West Liberty.",
+  "not_included": [
+    {
+      "Store_Number": "",
+      "Name": "Center",
+      "City": "Wheelersburg",
+      "State": "OH",
+      "Reason": "Requested not to include"
+    },
+    {
+      "Store_Number": "",
+      "Name": "29th & Lexington",
+      "City": "Ashland",
+      "State": "KY",
+      "Reason": "Requested not to include"
+    }
+  ],
+  "manual_assignment": "Elizabeth routes rebuilt per Robert/Elizabeth instructions; Carley runs retained.",
   "missing_records": []
 }
