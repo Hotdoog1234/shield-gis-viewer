@@ -9,17 +9,17 @@
   "max_site_stops_per_google_route": 9,
   "routes": [
     {
-      "route": "Carley Road Run 1: 630 - Speaks Marathon SPE001 to 78 - Bethel",
+      "route": "Carley Road Run 1: 630 - Speaks Marathon SPE001 to 89 - Berea",
       "route_number": 1,
       "owner": "Carley",
       "start": "Lexington, KY",
       "end": "Lexington, KY",
-      "count": 10,
-      "drive_miles": 80.3,
-      "drive_minutes": 120.0,
+      "count": 11,
+      "drive_miles": 151.9,
+      "drive_minutes": 206.0,
       "first": "630 - Speaks Marathon SPE001",
-      "last": "78 - Bethel",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.095554515104,-84.486268477911|38.231091196337,-84.535236638363|38.275301338024,-84.554902721280|38.214590499843,-84.540149815420|38.208788963860,-84.594553294954|38.162024093287,-84.676410982831|38.187688429852,-84.810980108947|38.044728168080,-84.663965360438|37.996863197986,-84.548270113657|37.948611000000,-84.541944000000",
+      "last": "89 - Berea",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.095554515104,-84.486268477911|38.231091196337,-84.535236638363|38.275301338024,-84.554902721280|38.214590499843,-84.540149815420|38.208788963860,-84.594553294954|38.162024093287,-84.676410982831|38.187688429852,-84.810980108947|38.044728168080,-84.663965360438|37.996863197986,-84.548270113657|37.948611000000,-84.541944000000|37.568914134966,-84.318334423585",
       "google_maps_parts": [
         {
           "part": "1",
@@ -34,8 +34,16 @@
           "label": "Part 2",
           "count": 5,
           "from": "85 - Canewood",
+          "to": "78 - Bethel",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.208788963860,-84.594553294954&destination=37.948611000000,-84.541944000000&travelmode=driving&waypoints=38.162024093287,-84.676410982831|38.187688429852,-84.810980108947|38.044728168080,-84.663965360438|37.996863197986,-84.548270113657"
+        },
+        {
+          "part": "3",
+          "label": "Part 3",
+          "count": 1,
+          "from": "78 - Bethel",
           "to": "Lexington, KY",
-          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.208788963860,-84.594553294954&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.162024093287,-84.676410982831|38.187688429852,-84.810980108947|38.044728168080,-84.663965360438|37.996863197986,-84.548270113657|37.948611000000,-84.541944000000"
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=37.948611000000,-84.541944000000&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=37.568914134966,-84.318334423585"
         }
       ],
       "phone_note": "Google Maps trims long routes, so this run is split into smaller phone links."
@@ -214,41 +222,41 @@
       "phone_note": "Google Maps trims long routes, so this run is split into smaller phone links."
     },
     {
-      "route": "Carley Road Run 10: 57 - Winchester Road to CC3 - Marathon Food Mart CC3",
+      "route": "Carley Road Run 10: CC3 - Marathon Food Mart CC3 to 57 - Winchester Road",
       "route_number": 10,
       "owner": "Carley",
       "start": "Lexington, KY",
       "end": "Lexington, KY",
-      "count": 13,
-      "drive_miles": 242.8,
-      "drive_minutes": 300.0,
-      "first": "57 - Winchester Road",
-      "last": "CC3 - Marathon Food Mart CC3",
-      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.041174009340,-84.471186301457|37.568914134966,-84.318334423585|37.997286549092,-84.174907557413|37.997919980046,-84.174585333820|37.921975577639,-83.259926259428|38.075151859626,-84.457642913927|38.069720319089,-84.474923978332|38.088131399617,-84.548607642383|38.089253912797,-84.536736457289|38.061167811605,-84.516732728320|38.057889739685,-84.532293904374|38.049468115848,-84.527226966676|38.050013921372,-84.517664633703",
+      "count": 12,
+      "drive_miles": 191.0,
+      "drive_minutes": 242.0,
+      "first": "CC3 - Marathon Food Mart CC3",
+      "last": "57 - Winchester Road",
+      "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.050013921372,-84.517664633703|38.049468115848,-84.527226966676|38.057889739685,-84.532293904374|38.061167811605,-84.516732728320|38.088131399617,-84.548607642383|38.089253912797,-84.536736457289|38.069720319089,-84.474923978332|38.075151859626,-84.457642913927|37.997286549092,-84.174907557413|37.997919980046,-84.174585333820|37.921975577639,-83.259926259428|38.041174009340,-84.471186301457",
       "google_maps_parts": [
         {
           "part": "1",
           "label": "Part 1",
           "count": 5,
           "from": "Lexington, KY",
-          "to": "28 - West Liberty",
-          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=37.921975577639,-83.259926259428&travelmode=driving&waypoints=38.041174009340,-84.471186301457|37.568914134966,-84.318334423585|37.997286549092,-84.174907557413|37.997919980046,-84.174585333820"
+          "to": "87 - Lucille Dr.",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.040600000000,-84.503700000000&destination=38.088131399617,-84.548607642383&travelmode=driving&waypoints=38.050013921372,-84.517664633703|38.049468115848,-84.527226966676|38.057889739685,-84.532293904374|38.061167811605,-84.516732728320"
         },
         {
           "part": "2",
           "label": "Part 2",
           "count": 5,
-          "from": "28 - West Liberty",
-          "to": "BPI590145 - Palumbo Lumber Co.",
-          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=37.921975577639,-83.259926259428&destination=38.061167811605,-84.516732728320&travelmode=driving&waypoints=38.075151859626,-84.457642913927|38.069720319089,-84.474923978332|38.088131399617,-84.548607642383|38.089253912797,-84.536736457289"
+          "from": "87 - Lucille Dr.",
+          "to": "BP69 - Winchester",
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.088131399617,-84.548607642383&destination=37.997919980046,-84.174585333820&travelmode=driving&waypoints=38.089253912797,-84.536736457289|38.069720319089,-84.474923978332|38.075151859626,-84.457642913927|37.997286549092,-84.174907557413"
         },
         {
           "part": "3",
           "label": "Part 3",
-          "count": 3,
-          "from": "BPI590145 - Palumbo Lumber Co.",
+          "count": 2,
+          "from": "BP69 - Winchester",
           "to": "Lexington, KY",
-          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=38.061167811605,-84.516732728320&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=38.057889739685,-84.532293904374|38.049468115848,-84.527226966676|38.050013921372,-84.517664633703"
+          "google_maps_route": "https://www.google.com/maps/dir/?api=1&origin=37.997919980046,-84.174585333820&destination=38.040600000000,-84.503700000000&travelmode=driving&waypoints=37.921975577639,-83.259926259428|38.041174009340,-84.471186301457"
         }
       ],
       "phone_note": "Google Maps trims long routes, so this run is split into smaller phone links."
@@ -270,6 +278,6 @@
       "Reason": "Requested not to include"
     }
   ],
-  "manual_assignment": "Elizabeth routes rebuilt per Robert/Elizabeth instructions; Carley runs retained.",
+  "manual_assignment": "Berea moved from Carley Road Run 10 to Carley Road Run 1 per Robert instruction; Elizabeth routes retained.",
   "missing_records": []
 }
